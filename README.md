@@ -9,11 +9,11 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 ### Homework Assignments
 | Homework | Due Date | Homework Folder | Completed Assignments |  Peer Review Due Date |
 | :---: | :---: | :---: | :---: | :---: |
-| [06](http://stat545.com/hw06_data-wrangling-conclusion.html) | November 10, 2017 | [N/A] | [N/A] | November 11, 2017 |
-| [07] | November 14, 2017 | [N/A] | [N/A] | November 17, 2017 |
-| [08] | November 21, 2017 | [N/A] | [N/A] | November 24, 2017 |
-| [09] | November 28, 2017 | [N/A] | [N/A] | December 1, 2017 |
-| [10] | December 4, 2017 | [N/A] | [N/A] | December 7, 2017 |
+| [06](http://stat545.com/hw06_data-wrangling-conclusion.html) | November 10, 2017 | N/A | N/A | November 11, 2017 |
+| 07 | November 14, 2017 | N/A | N/A | November 17, 2017 |
+| 08 | November 21, 2017 | N/A | N/A | November 24, 2017 |
+| 09 | November 28, 2017 | N/A | N/A | December 1, 2017 |
+| 10 | December 4, 2017 | N/A | N/A | December 7, 2017 |
 
 ### Details on Each Homework Assignment
 ##### Homework #6:
