@@ -3,7 +3,7 @@ title: "STAT 547 Homework Assignment #6"
 output: github_document
 ---
 
-[Return to Homework 6 Folder]
+[Return to Homework 6 Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw06)
 
 [Return to Main Page of Repository](https://github.com/heathersummers/STAT547-hw-Summers-Heather)
 
