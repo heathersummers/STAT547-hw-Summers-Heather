@@ -11,9 +11,9 @@ output: github_document
 
 - [Working with a nested data frame](#working-with-a-nested-data-frame)
 
-  - [Linear Model](#linear-model)
+    - [Linear Model](#linear-model)
 
-  - [Quadratic Model](#quadratic-model)
+    - [Quadratic Model](#quadratic-model)
 
 - [Writing Functions](#writing-functions)
 
@@ -239,6 +239,7 @@ I first started doing task #3 but struggled with understanding the `stringr` pac
 
 
 Useful Links:
+
 [Fitting a Quadratic Model](http://www.theanalysisfactor.com/r-tutorial-4/)
 
 [Computing by groups within data.frames with dplyr and broom](http://stat545.com/block023_dplyr-do.html)

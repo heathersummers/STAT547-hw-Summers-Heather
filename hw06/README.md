@@ -1,16 +1,10 @@
----
-title: "README.md"
-author: "Heather"
-date: "November 10, 2017"
-output: html_document
----
 
 ## STAT545 Homework 06
 [Return to Main Page](https://github.com/heathersummers/STAT547-hw-Summers-Heather)
 
 This folder contains homework assignment #6 for Heather Summers.
 
-For the completed homework 04 please see the [Markdown file](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.md) and the [R Markdown file](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.Rmd). Also a link to the instructions for this assignment can be found on the [STAT545 Website](http://stat545.com/hw06_data-wrangling-conclusion.html).
+For the completed homework 06 please see the [Markdown file](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.md) and the [R Markdown file](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.Rmd). Also a link to the instructions for this assignment can be found on the [STAT545 Website](http://stat545.com/hw06_data-wrangling-conclusion.html).
 
 ### Useful Links:
 [Fitting a Quadratic Model](http://www.theanalysisfactor.com/r-tutorial-4/)
