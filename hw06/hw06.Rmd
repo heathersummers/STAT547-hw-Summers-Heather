@@ -250,3 +250,6 @@ Useful Links:
 [Robust regression](https://stats.idre.ucla.edu/r/dae/robust-regression/)
 
 [Linear regression models with robust parameter estimation](https://www.r-bloggers.com/linear-regression-models-with-robust-parameter-estimation/)
+
+
+<a href="#top">Back to top</a>
