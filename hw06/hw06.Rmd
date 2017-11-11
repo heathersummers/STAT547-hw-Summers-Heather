@@ -1,0 +1,231 @@
+---
+title: "STAT 547 Homework Assignment #6"
+output: github_document
+---
+
+[Return to Homework 6 Folder]
+
+[Return to Main Page of Repository](https://github.com/heathersummers/STAT547-hw-Summers-Heather)
+
+## Table of Contents:
+
+- [Working with a nested data frame](#working-with-a-nested-data-frame)
+
+  - [Linear Model](#linear-model)
+
+  - [Quadratic Model](#quadratic-model)
+
+- [Writing Functions](#writing-functions)
+
+
+
+Load the following packages:
+```{r results='hide', message=FALSE, warning=FALSE}
+library(gapminder)
+library(tidyverse)
+library(broom)
+library(forcats)
+library(purrr)
+```
+
+## Task 6: 
+### Working with a nested data frame
+#### Linear Model
+Creating a nested data frame and fitting a linear model of life expectancy against year.
+First, nest the data by country and continent.
+```{r}
+#Nesting the data by country and continent:
+nested_gapminder<- gapminder %>%
+  group_by(continent, country) %>% #keeps country and continent on the outside
+  nest()
+head(nested_gapminder)
+```
+
+
+```{r}
+linear_fit <- function(dat, offset = 1952){
+  lm(lifeExp ~ I(year - offset), data = dat)
+}
+
+linear_fit(nested_gapminder[[1, "data"]]) #model is fit to the data from Afghanistan
+
+(fits <- map(nested_gapminder$data[1:2], linear_fit))
+
+#`map()` inside `mutate()` in order to store the models inside the nested gapminder data set (`nested_gapminder`) in another list-column
+(gapminder_coefficients <- nested_gapminder %>%
+    mutate(fit = map(data, linear_fit),
+           clean = map(fit, tidy)) %>%
+  select(continent, country, clean) %>% 
+  unnest(clean)) #unnest is used to simplify back to a normal tibble
+```
+
+Exploring the fit of the model using functions from the `broom` package:
+```{r message=FALSE, warning=FALSE}
+#Tidy the data for `lm` objects produces a data frame summary of estimated coefficients and results related to statistical inference such as the p-value.
+gfits_broom <- gapminder %>%
+  group_by(country, continent) %>% 
+  do(tidy(lm(lifeExp ~ I(year - 1952), data = .))) #`tidy()` is a tidy version of `summary()` and gives a table with one row per parameter estimate
+gfits_broom
+
+
+#Can use several other functions from the `broom` package but it is more convient to first store the fitted model as an object (ex. `fits`).
+(fits <- gapminder %>%
+  group_by(country, continent) %>% 
+  do(fit = lm(lifeExp ~ I(year - 1952), .)))
+
+fits %>%
+  glance(fit) #one row per country and it provides statistics on the overall model inclduing the R squared value and adjusted R squared value.
+
+fits %>% 
+  augment(fit) #one row per original observation and it gives several summary statistics including fitted value, residual, Cook's D, etc.
+```
+
+Exploring the R squared values of the linear model:
+
+Analyzed which countries had an R squared value less than 0.8 when fitting the linear model of life expectancy against the year 1952. 
+```{r}
+(fits %>% 
+  glance(fit) %>%
+  filter(r.squared<0.8) %>% 
+  ggplot(aes(x=r.squared, y=country, colour = continent)) +
+  geom_point() +
+  scale_x_continuous ("R Squared Values of Linear Model") +
+  labs(title = "R Squared Values for Linear Model Based on 1952 Life Expectancy Data", y = "Country", colour = "Continent") +
+   theme_bw()+
+   theme(axis.title = element_text(size = 12, face ="bold"),
+         axis.text.x = element_text(size = 10),
+         axis.text.y = element_text(size = 8),
+         plot.title = element_text(size = 13, face = "bold", hjust = 0.5),
+         legend.title = element_text(size = 10, face = "bold")))
+
+```
+
+
+Exploring the estimated coefficients:
+```{r}
+(estimate_coef <- gapminder_coefficients %>%
+   mutate(country = fct_reorder(country, estimate)) %>%
+   filter(continent=="Asia", (estimate>1)) %>%
+   ggplot(aes(x = estimate, y = country)) +
+   geom_point() +
+   scale_x_continuous ("Life Expectancy Estimated Coefficients") +
+   labs(title = "Estimated Coefficients Based on Linear Model for Asia in 1952", y = "Country") +
+   theme_bw()+
+   theme(axis.title = element_text(size = 12, face ="bold"),
+         axis.text.x = element_text(size = 10),
+         axis.text.y = element_text(size = 8),
+         plot.title = element_text(size = 13, face = "bold", hjust = 0.5)))
+```
+
+#### Quadratic Model
+Using the nested data frame and fitting a quadratic model of life expectancy against year.
+```{r}
+quad_fit <- function(dat, offset = 1952){
+  lm(lifeExp ~ I(year - offset) + I(year^2), data = dat)
+}
+quad_fit(nested_gapminder[[1, "data"]]) #model is fit to the data from Afghanistan
+
+(quadfits <- map(nested_gapminder$data[1:2], quad_fit))
+
+(gapminder_coefficients <- nested_gapminder %>%
+    mutate(fitted = map(data, quad_fit),
+           tidy = map(fitted, tidy)) %>%
+  select(continent, country, tidy) %>%
+  unnest(tidy))
+```
+
+```{r message=FALSE, warning=FALSE}
+(quadfits <- gapminder %>%
+  group_by(country, continent) %>% 
+  do(fit2 = lm(lifeExp ~ I(year - 1952)+ I(year^2), .)))
+
+quadfits %>%
+  glance(fit2) #one row per country and it provides statistics on the overall model inclduing the R squared value and adjusted R squared value.
+
+quadfits %>% 
+  augment(fit2) #one row per original observation and it gives several summary statistics including fitted value, residual, Cook's D, etc.
+```
+
+Exploring the R squared values of the quadratic model:
+
+Analyzed which countries had an R squared value less than 0.8 when fitting the quadratic model of life expectancy against the year 1952. 
+```{r}
+(quadfits %>% 
+  glance(fit2) %>%
+  filter(r.squared<0.8) %>% 
+  ggplot(aes(x=r.squared, y=country, colour = continent)) +
+  geom_point() +
+  scale_x_continuous ("R Squared Values of Quadratic Model") +
+  labs(title = "R Squared Values for Quadratic Model Based on 1952 Life Expectancy Data", y = "Country", colour = "Continent") +
+   theme_bw()+
+   theme(axis.title = element_text(size = 12, face ="bold"),
+         axis.text.x = element_text(size = 10),
+         axis.text.y = element_text(size = 8),
+         plot.title = element_text(size = 13, face = "bold", hjust = 0.5),
+         legend.title = element_text(size = 10, face = "bold")))
+
+```
+
+Based on the figures of R squared values, it appears the quadratic model is a better fit of the nested data (i.e. less countries than have an R squared value less than 0.8).
+
+Exploring the estimated coefficients:
+```{r}
+(estimate_coef <- gapminder_coefficients %>%
+   mutate(country = fct_reorder(country, estimate)) %>%
+   filter(continent=="Asia", (estimate>1)) %>%
+   ggplot(aes(x = estimate, y = country)) +
+   geom_line() +
+   scale_x_continuous ("Life Expectancy Estimated Coefficients") +
+   labs(title = "Estimated Coefficients Based on Quadratic Model for Asia in 1952", y = "Country") +
+   theme_bw()+
+   theme(axis.title = element_text(size = 12, face ="bold"),
+         axis.text.x = element_text(size = 10),
+         axis.text.y = element_text(size = 8),
+         plot.title = element_text(size = 13, face = "bold", hjust = 0.5)))
+```
+
+## Task 2: 
+### Writing Functions
+
+The goal of this function is for a linear regression function to be generalized to do a quadratic regresion and a robust regression (`lmrob()`).
+
+First, I nested the data by country.
+```{r}
+gap_nested <- gapminder %>%
+  group_by(country) %>% #keeps country on the outside
+  nest()
+head(gap_nested)
+```
+
+If robust is used than `robust` will be equal to 2 and if it is not used it will be equal to 1. If it is a linear regression function than `model` will be equal to 0 and if it is a quadratic regression function than `model` will be equal to 1. 
+
+```{r}
+#linear function: lm(gdpPercap ~ I(year - offset)
+#quadratic function: lm(gdpPercap ~ I(year - offset) + I(year^2)
+
+fit_model <- function(data, offset = 2007, robust = 2, model = 1){
+  if(robust==2) lmrob(gdpPercap ~ I(year - offset) + I(year^2*model), data = data) else
+    lm(gdpPercap ~ I(year - offset) + I(year^2*model), data = data)
+}
+
+gap_nested <- gap_nested %>%
+  mutate(lin_fit_norob = map(data, fit_model, 0, 0), #map is used for doing computations involving list columns
+         lin_fit_rob = map(data, fit_model, 2, 0),
+         quad_fit_norob = map(data, fit_model, 0, 1),
+         quad_fit_rob = map(data, fit_model, 2, 1))
+head(gap_nested)
+```
+
+
+## Report Your Process:
+I would really like to learn more about the `stringr` package including how to clean the "non-word" text using various characters.
+
+
+Useful Links:
+[Fitting a Quadratic Model](http://www.theanalysisfactor.com/r-tutorial-4/)
+
+[Computing by groups within data.frames with dplyr and broom](http://stat545.com/block023_dplyr-do.html)
+
+[broom package](https://github.com/tidyverse/broom)
+
+[Split-Apply-Combine](http://stat545.com/block024_group-nest-split-map.html)

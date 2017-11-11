@@ -1,0 +1,78 @@
+---
+title: "hw06"
+output: html_document
+---
+
+This is homework #6 for Heather Summers.
+
+Load the following packages.
+```{r}
+library(gapminder)
+library(dplyr)
+library(tidyverse)
+library(knitr)
+library(stringr)
+library(devtools)
+library(ggplot2)
+```
+
+## Task 3
+### Work with the candy data
+```{r}
+candy_raw <- read.csv("candy_raw.csv")
+View(candy_raw) # to view the entire data set
+```
+
+Now to familiarize myself with the data and to make small changes to tidy up the data.
+```{r}
+#Number of rows:
+nrow(candy_raw)
+
+#Number of columns:
+ncol(candy_raw)
+
+#Names of columns:
+colnames(candy_raw)
+
+#Names of rows:
+rownames(candy_raw)
+```
+
+
+```{r}
+candy_raw_id <- candy_raw %>%
+  mutate(id = sprintf("%04d", row_number())) %>%
+  select(id,
+         age = starts_with("How"), #need to incorporate 'starts_with` since when I put the full name of the column an error came up likely due to the spaces in the title name
+         everything())
+```
+
+```{r}
+candy_raw_id <- candy_raw_id %>%
+  mutate(age_nchar = str_length(age)) %>% #`str_length` gives the length of a string 
+  filter(age_nchar <= 2) %>% #age should have less than or equal to 2 characters
+  select(-age_nchar) %>%
+  mutate(age = as.integer(age)) %>%
+  filter(!is.na(age)) #drop rows with NAs for `age`
+
+View(candy_raw_id)
+nrow(candy_raw_id)
+```
+
+```{r}
+tmp_names <-
+  data.frame(orig_name = names(candy_raw_id)) %>%
+  mutate(is_candy = str_detect(orig_name, "^\\["),
+         new_name = str_replace_all(orig_name, "(^\\[)(.*)(\\]$)", "\\2"),
+         new_name = str_replace_all(new_name, '["’]', "'"),
+         is_changed = orig_name != new_name)
+sum(tmp_names$is_candy)
+
+table(tmp_names$is_candy, tmp_names$is_changed)
+
+#`str_detect` is used to detect the presence or absence of a pattern in a string --> usage = `str_detect(string, pattern)`
+#`str_replace` is used to replace matched patterns in a string --> usage = `str_replace(string, pattern, replacement)` or `str_repace_all(string, pattern, replacement)`
+#`str_extract` is used to extract matching patterns from a string --> usage = `str_extract(string, pattern)` or `str_extract_all(string, pattern, simplify = FALSE)`
+#`str_subset` is used to keep strings matching a pattern, or find positions --> usage = `str_subset(string, pattern)` or `str_which(string, pattern)`.
+```
+

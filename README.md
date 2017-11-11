@@ -17,10 +17,11 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 
 ### Details on Each Homework Assignment
 ##### Homework #6:
-Objectives:
+
+###### Objectives:
 - 
 
-Useful Links:
+###### Useful Links:
 -
 
 ### Additional Useful Links
