@@ -22,6 +22,7 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 - work on writing functions
 - data tidying
 - work with a nested data frame
+- work with a list
 
 ###### Useful Links:
 - [Fitting a Quadratic Model](http://www.theanalysisfactor.com/r-tutorial-4/)
@@ -32,10 +33,15 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 
 - [Split-Apply-Combine](http://stat545.com/block024_group-nest-split-map.html)
 
+- [Robust regression](https://stats.idre.ucla.edu/r/dae/robust-regression/)
+
+- [Linear regression models with robust parameter estimation](https://www.r-bloggers.com/linear-regression-models-with-robust-parameter-estimation/)
+
 
 ### Additional Useful Links
 - [STAT545 Homepage](http://stat545.com/)
 - [STAT545 Syllabus](http://stat545.com/syllabus.html)
 - [Slack Sign In](https://slack.com/signin)
 - [Guidelines for peer review](http://stat545.com/peer-review02_peer-evaluation-guidelines.html)
-- [Guest Lecture by Tamara Munzer](https://github.com/heathersummers/STAT545-hw-Summers-Heather/blob/master/Guest_Lecture_October_19.md)
+
+
