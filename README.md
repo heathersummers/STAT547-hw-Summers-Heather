@@ -9,7 +9,7 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 ### Homework Assignments
 | Homework | Due Date | Homework Folder | Completed Assignments |  Peer Review Due Date |
 | :---: | :---: | :---: | :---: | :---: |
-| [06](http://stat545.com/hw06_data-wrangling-conclusion.html) | November 10, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw06) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.md) | November 11, 2017 |
+| [06](http://stat545.com/hw06_data-wrangling-conclusion.html) | November 10, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw06) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.md) | November 13, 2017 |
 | 07 | November 14, 2017 | N/A | N/A | November 17, 2017 |
 | 08 | November 21, 2017 | N/A | N/A | November 24, 2017 |
 | 09 | November 28, 2017 | N/A | N/A | December 1, 2017 |
@@ -19,10 +19,19 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 ##### Homework #6:
 
 ###### Objectives:
-- 
+- work on writing functions
+- data tidying
+- work with a nested data frame
 
 ###### Useful Links:
--
+- [Fitting a Quadratic Model](http://www.theanalysisfactor.com/r-tutorial-4/)
+
+- [Computing by groups within data.frames with dplyr and broom](http://stat545.com/block023_dplyr-do.html)
+
+- [broom package](https://github.com/tidyverse/broom)
+
+- [Split-Apply-Combine](http://stat545.com/block024_group-nest-split-map.html)
+
 
 ### Additional Useful Links
 - [STAT545 Homepage](http://stat545.com/)
