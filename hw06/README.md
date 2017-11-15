@@ -12,5 +12,4 @@ For the completed homework 07 please see the [Markdown file]() and the [R Markdo
 - [Automation Examples Using Just R](https://github.com/STAT545-UBC/STAT545-UBC.github.io/tree/master/automation10_holding-area/01_automation-example_just-r)
 
 
-### Report Your Process:
 
