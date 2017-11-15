@@ -8,9 +8,10 @@ outputs <- c("gapminder.tsv",
 file.remove(outputs)
 
 #run my scripts
-source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_exploratory.R")
-source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_statistical.R")
-source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_figures.R")
+source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/R scripts/gapminder_exploratory.R")
+source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/R scripts/gapminder_statistical.R")
+source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/R scripts/gapminder_figures.R")
 source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/hw07.Rmd")
 
 rmarkdown::render("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/hw07.Rmd")
+
