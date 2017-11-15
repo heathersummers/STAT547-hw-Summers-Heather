@@ -44,7 +44,7 @@ write.table(gap_coefficients, file = "gap_coefficients.tsv",quote = FALSE,
             sep = "\t", row.names = FALSE)
 
 #I will now find the four "worst" and "best" countries for each continent (except Oceania since there are not enough countries available) based on the standard error.
-#Standard error measures teh accuracy with which a sample represents a population.
+#Standard error measures the accuracy with which a sample represents a population.
 #The smaller the standard error (i.e. smaller the spread) the higher the accuracy of the sample, the data is more representative of the true mean.
 #The larger the standard error the less accurate the sample, the data likely has notable irregularities.
 
