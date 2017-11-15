@@ -51,7 +51,7 @@ download.file(url = "https://raw.githubusercontent.com/jennybc/gapminder/master/
 
 <a href="#top">Back to top</a>
 
-For this section I reordered continents based on life expectancy and arranged the data on continent, country, life expectancy, year. More details regarding the code can be found [here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/gapminder_exploratory.R).
+For this section I reordered continents based on life expectancy and arranged the data on continent, country, life expectancy, year. More details regarding the code can be found [here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/R%20scripts/gapminder_exploratory.R).
 ```{r}
 gap_data <- read.delim("gapminder_clean.tsv")
 (table <- head(as.data.frame(gap_data), n=10))
@@ -61,13 +61,13 @@ gap_data <- read.delim("gapminder_clean.tsv")
 
 <a href="#top">Back to top</a>
 
-For this section I fit a linear regression of life expectancy on year within each country and got the estimated intercepts, slopes, and residual error variance (or sd). More details regarding the code can be found [here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/gapminder_statistical.R). 
+For this section I fit a linear regression of life expectancy on year within each country and got the estimated intercepts, slopes, and residual error variance (or sd). More details regarding the code can be found [here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/R%20scripts/gapminder_statistical.R). 
 ```{r}
 coefficients_data<-read.delim("gap_coefficients.tsv")
 (table <- head(as.data.frame(coefficients_data), n=10))
 ```
 
-I also found the four "worst" and "best" countries for each continent (except Oceania since there are not enough countries available) based on the standard error. Standard error measures the accuracy with which a sample represents a population. The smaller the standard error (i.e. smaller the spread) the higher the accuracy of the sample, the data is more representative of the true mean. The larger the standard error the less accurate the sample, the data likely has notable irregularities. More details regarding the code can be found [here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/gapminder_statistical.R).
+I also found the four "worst" and "best" countries for each continent (except Oceania since there are not enough countries available) based on the standard error. Standard error measures the accuracy with which a sample represents a population. The smaller the standard error (i.e. smaller the spread) the higher the accuracy of the sample, the data is more representative of the true mean. The larger the standard error the less accurate the sample, the data likely has notable irregularities. More details regarding the code can be found [here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/R%20scripts/gapminder_statistical.R).
 
 ```{r}
 best_worst_countries<-read.delim("best_worst_countries.tsv")
@@ -79,7 +79,7 @@ best_worst_countries<-read.delim("best_worst_countries.tsv")
 
 <a href="#top">Back to top</a>
 
-For each continent I created a life expectancy vs. year for the two best countries (i.e. smallest std.error) and two worst countries (i.e. largest std.error).
+For each continent I created a life expectancy vs. year for the two best countries (i.e. smallest std.error) and two worst countries (i.e. largest std.error). More details regarding the code can be found [here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/R%20scripts/gapminder_figures.R).
 
 !['Life Expectancy vs Year for Africa](Life_Expectancy_of_Africa.png)
 !['Life Expectancy vs Year for Asia](Life_Expectancy_of_Asia.png)
@@ -92,5 +92,5 @@ For each continent I created a life expectancy vs. year for the two best countri
 
 <a href="#top">Back to top</a>
 
-I wrote a [Makefile](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/Makefile.R) to automate my pipeline using R.
+I wrote a [Makefile](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/R%20scripts/Makefile.R) to automate my pipeline using R and also saved rendered my [RMarkdown](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/hw07.Rmd) report into [HTML format](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/hw07.html).
 
