@@ -11,4 +11,6 @@ source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summ
 source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_statistical.R")
 source("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_figures.R")
 
+rmarkdown::render("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_exploratory.R")
+rmarkdown::render("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_statistical.R")
 rmarkdown::render("C:/Users/Heather/Documents/UBC_Graduate _School/STAT_547/STAT547-hw-Summers-Heather/hw07/gapminder_figures.R")
