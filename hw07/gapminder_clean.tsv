@@ -1,0 +1,1705 @@
+continent	country	lifeExp	year
+Africa	Algeria	43.077	1952
+Africa	Algeria	45.685	1957
+Africa	Algeria	48.303	1962
+Africa	Algeria	51.407	1967
+Africa	Algeria	54.518	1972
+Africa	Algeria	58.014	1977
+Africa	Algeria	61.368	1982
+Africa	Algeria	65.799	1987
+Africa	Algeria	67.744	1992
+Africa	Algeria	69.152	1997
+Africa	Algeria	70.994	2002
+Africa	Algeria	72.301	2007
+Africa	Angola	30.015	1952
+Africa	Angola	31.999	1957
+Africa	Angola	34	1962
+Africa	Angola	35.985	1967
+Africa	Angola	37.928	1972
+Africa	Angola	39.483	1977
+Africa	Angola	39.906	1987
+Africa	Angola	39.942	1982
+Africa	Angola	40.647	1992
+Africa	Angola	40.963	1997
+Africa	Angola	41.003	2002
+Africa	Angola	42.731	2007
+Africa	Benin	38.223	1952
+Africa	Benin	40.358	1957
+Africa	Benin	42.618	1962
+Africa	Benin	44.885	1967
+Africa	Benin	47.014	1972
+Africa	Benin	49.19	1977
+Africa	Benin	50.904	1982
+Africa	Benin	52.337	1987
+Africa	Benin	53.919	1992
+Africa	Benin	54.406	2002
+Africa	Benin	54.777	1997
+Africa	Benin	56.728	2007
+Africa	Botswana	46.634	2002
+Africa	Botswana	47.622	1952
+Africa	Botswana	49.618	1957
+Africa	Botswana	50.728	2007
+Africa	Botswana	51.52	1962
+Africa	Botswana	52.556	1997
+Africa	Botswana	53.298	1967
+Africa	Botswana	56.024	1972
+Africa	Botswana	59.319	1977
+Africa	Botswana	61.484	1982
+Africa	Botswana	62.745	1992
+Africa	Botswana	63.622	1987
+Africa	Burkina Faso	31.975	1952
+Africa	Burkina Faso	34.906	1957
+Africa	Burkina Faso	37.814	1962
+Africa	Burkina Faso	40.697	1967
+Africa	Burkina Faso	43.591	1972
+Africa	Burkina Faso	46.137	1977
+Africa	Burkina Faso	48.122	1982
+Africa	Burkina Faso	49.557	1987
+Africa	Burkina Faso	50.26	1992
+Africa	Burkina Faso	50.324	1997
+Africa	Burkina Faso	50.65	2002
+Africa	Burkina Faso	52.295	2007
+Africa	Burundi	39.031	1952
+Africa	Burundi	40.533	1957
+Africa	Burundi	42.045	1962
+Africa	Burundi	43.548	1967
+Africa	Burundi	44.057	1972
+Africa	Burundi	44.736	1992
+Africa	Burundi	45.326	1997
+Africa	Burundi	45.91	1977
+Africa	Burundi	47.36	2002
+Africa	Burundi	47.471	1982
+Africa	Burundi	48.211	1987
+Africa	Burundi	49.58	2007
+Africa	Cameroon	38.523	1952
+Africa	Cameroon	40.428	1957
+Africa	Cameroon	42.643	1962
+Africa	Cameroon	44.799	1967
+Africa	Cameroon	47.049	1972
+Africa	Cameroon	49.355	1977
+Africa	Cameroon	49.856	2002
+Africa	Cameroon	50.43	2007
+Africa	Cameroon	52.199	1997
+Africa	Cameroon	52.961	1982
+Africa	Cameroon	54.314	1992
+Africa	Cameroon	54.985	1987
+Africa	Central African Republic	35.463	1952
+Africa	Central African Republic	37.464	1957
+Africa	Central African Republic	39.475	1962
+Africa	Central African Republic	41.478	1967
+Africa	Central African Republic	43.308	2002
+Africa	Central African Republic	43.457	1972
+Africa	Central African Republic	44.741	2007
+Africa	Central African Republic	46.066	1997
+Africa	Central African Republic	46.775	1977
+Africa	Central African Republic	48.295	1982
+Africa	Central African Republic	49.396	1992
+Africa	Central African Republic	50.485	1987
+Africa	Chad	38.092	1952
+Africa	Chad	39.881	1957
+Africa	Chad	41.716	1962
+Africa	Chad	43.601	1967
+Africa	Chad	45.569	1972
+Africa	Chad	47.383	1977
+Africa	Chad	49.517	1982
+Africa	Chad	50.525	2002
+Africa	Chad	50.651	2007
+Africa	Chad	51.051	1987
+Africa	Chad	51.573	1997
+Africa	Chad	51.724	1992
+Africa	Comoros	40.715	1952
+Africa	Comoros	42.46	1957
+Africa	Comoros	44.467	1962
+Africa	Comoros	46.472	1967
+Africa	Comoros	48.944	1972
+Africa	Comoros	50.939	1977
+Africa	Comoros	52.933	1982
+Africa	Comoros	54.926	1987
+Africa	Comoros	57.939	1992
+Africa	Comoros	60.66	1997
+Africa	Comoros	62.974	2002
+Africa	Comoros	65.152	2007
+Africa	Congo, Dem. Rep.	39.143	1952
+Africa	Congo, Dem. Rep.	40.652	1957
+Africa	Congo, Dem. Rep.	42.122	1962
+Africa	Congo, Dem. Rep.	42.587	1997
+Africa	Congo, Dem. Rep.	44.056	1967
+Africa	Congo, Dem. Rep.	44.966	2002
+Africa	Congo, Dem. Rep.	45.548	1992
+Africa	Congo, Dem. Rep.	45.989	1972
+Africa	Congo, Dem. Rep.	46.462	2007
+Africa	Congo, Dem. Rep.	47.412	1987
+Africa	Congo, Dem. Rep.	47.784	1982
+Africa	Congo, Dem. Rep.	47.804	1977
+Africa	Congo, Rep.	42.111	1952
+Africa	Congo, Rep.	45.053	1957
+Africa	Congo, Rep.	48.435	1962
+Africa	Congo, Rep.	52.04	1967
+Africa	Congo, Rep.	52.962	1997
+Africa	Congo, Rep.	52.97	2002
+Africa	Congo, Rep.	54.907	1972
+Africa	Congo, Rep.	55.322	2007
+Africa	Congo, Rep.	55.625	1977
+Africa	Congo, Rep.	56.433	1992
+Africa	Congo, Rep.	56.695	1982
+Africa	Congo, Rep.	57.47	1987
+Africa	Cote d'Ivoire	40.477	1952
+Africa	Cote d'Ivoire	42.469	1957
+Africa	Cote d'Ivoire	44.93	1962
+Africa	Cote d'Ivoire	46.832	2002
+Africa	Cote d'Ivoire	47.35	1967
+Africa	Cote d'Ivoire	47.991	1997
+Africa	Cote d'Ivoire	48.328	2007
+Africa	Cote d'Ivoire	49.801	1972
+Africa	Cote d'Ivoire	52.044	1992
+Africa	Cote d'Ivoire	52.374	1977
+Africa	Cote d'Ivoire	53.983	1982
+Africa	Cote d'Ivoire	54.655	1987
+Africa	Djibouti	34.812	1952
+Africa	Djibouti	37.328	1957
+Africa	Djibouti	39.693	1962
+Africa	Djibouti	42.074	1967
+Africa	Djibouti	44.366	1972
+Africa	Djibouti	46.519	1977
+Africa	Djibouti	48.812	1982
+Africa	Djibouti	50.04	1987
+Africa	Djibouti	51.604	1992
+Africa	Djibouti	53.157	1997
+Africa	Djibouti	53.373	2002
+Africa	Djibouti	54.791	2007
+Africa	Egypt	41.893	1952
+Africa	Egypt	44.444	1957
+Africa	Egypt	46.992	1962
+Africa	Egypt	49.293	1967
+Africa	Egypt	51.137	1972
+Africa	Egypt	53.319	1977
+Africa	Egypt	56.006	1982
+Africa	Egypt	59.797	1987
+Africa	Egypt	63.674	1992
+Africa	Egypt	67.217	1997
+Africa	Egypt	69.806	2002
+Africa	Egypt	71.338	2007
+Africa	Equatorial Guinea	34.482	1952
+Africa	Equatorial Guinea	35.983	1957
+Africa	Equatorial Guinea	37.485	1962
+Africa	Equatorial Guinea	38.987	1967
+Africa	Equatorial Guinea	40.516	1972
+Africa	Equatorial Guinea	42.024	1977
+Africa	Equatorial Guinea	43.662	1982
+Africa	Equatorial Guinea	45.664	1987
+Africa	Equatorial Guinea	47.545	1992
+Africa	Equatorial Guinea	48.245	1997
+Africa	Equatorial Guinea	49.348	2002
+Africa	Equatorial Guinea	51.579	2007
+Africa	Eritrea	35.928	1952
+Africa	Eritrea	38.047	1957
+Africa	Eritrea	40.158	1962
+Africa	Eritrea	42.189	1967
+Africa	Eritrea	43.89	1982
+Africa	Eritrea	44.142	1972
+Africa	Eritrea	44.535	1977
+Africa	Eritrea	46.453	1987
+Africa	Eritrea	49.991	1992
+Africa	Eritrea	53.378	1997
+Africa	Eritrea	55.24	2002
+Africa	Eritrea	58.04	2007
+Africa	Ethiopia	34.078	1952
+Africa	Ethiopia	36.667	1957
+Africa	Ethiopia	40.059	1962
+Africa	Ethiopia	42.115	1967
+Africa	Ethiopia	43.515	1972
+Africa	Ethiopia	44.51	1977
+Africa	Ethiopia	44.916	1982
+Africa	Ethiopia	46.684	1987
+Africa	Ethiopia	48.091	1992
+Africa	Ethiopia	49.402	1997
+Africa	Ethiopia	50.725	2002
+Africa	Ethiopia	52.947	2007
+Africa	Gabon	37.003	1952
+Africa	Gabon	38.999	1957
+Africa	Gabon	40.489	1962
+Africa	Gabon	44.598	1967
+Africa	Gabon	48.69	1972
+Africa	Gabon	52.79	1977
+Africa	Gabon	56.564	1982
+Africa	Gabon	56.735	2007
+Africa	Gabon	56.761	2002
+Africa	Gabon	60.19	1987
+Africa	Gabon	60.461	1997
+Africa	Gabon	61.366	1992
+Africa	Gambia	30	1952
+Africa	Gambia	32.065	1957
+Africa	Gambia	33.896	1962
+Africa	Gambia	35.857	1967
+Africa	Gambia	38.308	1972
+Africa	Gambia	41.842	1977
+Africa	Gambia	45.58	1982
+Africa	Gambia	49.265	1987
+Africa	Gambia	52.644	1992
+Africa	Gambia	55.861	1997
+Africa	Gambia	58.041	2002
+Africa	Gambia	59.448	2007
+Africa	Ghana	43.149	1952
+Africa	Ghana	44.779	1957
+Africa	Ghana	46.452	1962
+Africa	Ghana	48.072	1967
+Africa	Ghana	49.875	1972
+Africa	Ghana	51.756	1977
+Africa	Ghana	53.744	1982
+Africa	Ghana	55.729	1987
+Africa	Ghana	57.501	1992
+Africa	Ghana	58.453	2002
+Africa	Ghana	58.556	1997
+Africa	Ghana	60.022	2007
+Africa	Guinea	33.609	1952
+Africa	Guinea	34.558	1957
+Africa	Guinea	35.753	1962
+Africa	Guinea	37.197	1967
+Africa	Guinea	38.842	1972
+Africa	Guinea	40.762	1977
+Africa	Guinea	42.891	1982
+Africa	Guinea	45.552	1987
+Africa	Guinea	48.576	1992
+Africa	Guinea	51.455	1997
+Africa	Guinea	53.676	2002
+Africa	Guinea	56.007	2007
+Africa	Guinea-Bissau	32.5	1952
+Africa	Guinea-Bissau	33.489	1957
+Africa	Guinea-Bissau	34.488	1962
+Africa	Guinea-Bissau	35.492	1967
+Africa	Guinea-Bissau	36.486	1972
+Africa	Guinea-Bissau	37.465	1977
+Africa	Guinea-Bissau	39.327	1982
+Africa	Guinea-Bissau	41.245	1987
+Africa	Guinea-Bissau	43.266	1992
+Africa	Guinea-Bissau	44.873	1997
+Africa	Guinea-Bissau	45.504	2002
+Africa	Guinea-Bissau	46.388	2007
+Africa	Kenya	42.27	1952
+Africa	Kenya	44.686	1957
+Africa	Kenya	47.949	1962
+Africa	Kenya	50.654	1967
+Africa	Kenya	50.992	2002
+Africa	Kenya	53.559	1972
+Africa	Kenya	54.11	2007
+Africa	Kenya	54.407	1997
+Africa	Kenya	56.155	1977
+Africa	Kenya	58.766	1982
+Africa	Kenya	59.285	1992
+Africa	Kenya	59.339	1987
+Africa	Lesotho	42.138	1952
+Africa	Lesotho	42.592	2007
+Africa	Lesotho	44.593	2002
+Africa	Lesotho	45.047	1957
+Africa	Lesotho	47.747	1962
+Africa	Lesotho	48.492	1967
+Africa	Lesotho	49.767	1972
+Africa	Lesotho	52.208	1977
+Africa	Lesotho	55.078	1982
+Africa	Lesotho	55.558	1997
+Africa	Lesotho	57.18	1987
+Africa	Lesotho	59.685	1992
+Africa	Liberia	38.48	1952
+Africa	Liberia	39.486	1957
+Africa	Liberia	40.502	1962
+Africa	Liberia	40.802	1992
+Africa	Liberia	41.536	1967
+Africa	Liberia	42.221	1997
+Africa	Liberia	42.614	1972
+Africa	Liberia	43.753	2002
+Africa	Liberia	43.764	1977
+Africa	Liberia	44.852	1982
+Africa	Liberia	45.678	2007
+Africa	Liberia	46.027	1987
+Africa	Libya	42.723	1952
+Africa	Libya	45.289	1957
+Africa	Libya	47.808	1962
+Africa	Libya	50.227	1967
+Africa	Libya	52.773	1972
+Africa	Libya	57.442	1977
+Africa	Libya	62.155	1982
+Africa	Libya	66.234	1987
+Africa	Libya	68.755	1992
+Africa	Libya	71.555	1997
+Africa	Libya	72.737	2002
+Africa	Libya	73.952	2007
+Africa	Madagascar	36.681	1952
+Africa	Madagascar	38.865	1957
+Africa	Madagascar	40.848	1962
+Africa	Madagascar	42.881	1967
+Africa	Madagascar	44.851	1972
+Africa	Madagascar	46.881	1977
+Africa	Madagascar	48.969	1982
+Africa	Madagascar	49.35	1987
+Africa	Madagascar	52.214	1992
+Africa	Madagascar	54.978	1997
+Africa	Madagascar	57.286	2002
+Africa	Madagascar	59.443	2007
+Africa	Malawi	36.256	1952
+Africa	Malawi	37.207	1957
+Africa	Malawi	38.41	1962
+Africa	Malawi	39.487	1967
+Africa	Malawi	41.766	1972
+Africa	Malawi	43.767	1977
+Africa	Malawi	45.009	2002
+Africa	Malawi	45.642	1982
+Africa	Malawi	47.457	1987
+Africa	Malawi	47.495	1997
+Africa	Malawi	48.303	2007
+Africa	Malawi	49.42	1992
+Africa	Mali	33.685	1952
+Africa	Mali	35.307	1957
+Africa	Mali	36.936	1962
+Africa	Mali	38.487	1967
+Africa	Mali	39.977	1972
+Africa	Mali	41.714	1977
+Africa	Mali	43.916	1982
+Africa	Mali	46.364	1987
+Africa	Mali	48.388	1992
+Africa	Mali	49.903	1997
+Africa	Mali	51.818	2002
+Africa	Mali	54.467	2007
+Africa	Mauritania	40.543	1952
+Africa	Mauritania	42.338	1957
+Africa	Mauritania	44.248	1962
+Africa	Mauritania	46.289	1967
+Africa	Mauritania	48.437	1972
+Africa	Mauritania	50.852	1977
+Africa	Mauritania	53.599	1982
+Africa	Mauritania	56.145	1987
+Africa	Mauritania	58.333	1992
+Africa	Mauritania	60.43	1997
+Africa	Mauritania	62.247	2002
+Africa	Mauritania	64.164	2007
+Africa	Mauritius	50.986	1952
+Africa	Mauritius	58.089	1957
+Africa	Mauritius	60.246	1962
+Africa	Mauritius	61.557	1967
+Africa	Mauritius	62.944	1972
+Africa	Mauritius	64.93	1977
+Africa	Mauritius	66.711	1982
+Africa	Mauritius	68.74	1987
+Africa	Mauritius	69.745	1992
+Africa	Mauritius	70.736	1997
+Africa	Mauritius	71.954	2002
+Africa	Mauritius	72.801	2007
+Africa	Morocco	42.873	1952
+Africa	Morocco	45.423	1957
+Africa	Morocco	47.924	1962
+Africa	Morocco	50.335	1967
+Africa	Morocco	52.862	1972
+Africa	Morocco	55.73	1977
+Africa	Morocco	59.65	1982
+Africa	Morocco	62.677	1987
+Africa	Morocco	65.393	1992
+Africa	Morocco	67.66	1997
+Africa	Morocco	69.615	2002
+Africa	Morocco	71.164	2007
+Africa	Mozambique	31.286	1952
+Africa	Mozambique	33.779	1957
+Africa	Mozambique	36.161	1962
+Africa	Mozambique	38.113	1967
+Africa	Mozambique	40.328	1972
+Africa	Mozambique	42.082	2007
+Africa	Mozambique	42.495	1977
+Africa	Mozambique	42.795	1982
+Africa	Mozambique	42.861	1987
+Africa	Mozambique	44.026	2002
+Africa	Mozambique	44.284	1992
+Africa	Mozambique	46.344	1997
+Africa	Namibia	41.725	1952
+Africa	Namibia	45.226	1957
+Africa	Namibia	48.386	1962
+Africa	Namibia	51.159	1967
+Africa	Namibia	51.479	2002
+Africa	Namibia	52.906	2007
+Africa	Namibia	53.867	1972
+Africa	Namibia	56.437	1977
+Africa	Namibia	58.909	1997
+Africa	Namibia	58.968	1982
+Africa	Namibia	60.835	1987
+Africa	Namibia	61.999	1992
+Africa	Niger	37.444	1952
+Africa	Niger	38.598	1957
+Africa	Niger	39.487	1962
+Africa	Niger	40.118	1967
+Africa	Niger	40.546	1972
+Africa	Niger	41.291	1977
+Africa	Niger	42.598	1982
+Africa	Niger	44.555	1987
+Africa	Niger	47.391	1992
+Africa	Niger	51.313	1997
+Africa	Niger	54.496	2002
+Africa	Niger	56.867	2007
+Africa	Nigeria	36.324	1952
+Africa	Nigeria	37.802	1957
+Africa	Nigeria	39.36	1962
+Africa	Nigeria	41.04	1967
+Africa	Nigeria	42.821	1972
+Africa	Nigeria	44.514	1977
+Africa	Nigeria	45.826	1982
+Africa	Nigeria	46.608	2002
+Africa	Nigeria	46.859	2007
+Africa	Nigeria	46.886	1987
+Africa	Nigeria	47.464	1997
+Africa	Nigeria	47.472	1992
+Africa	Reunion	52.724	1952
+Africa	Reunion	55.09	1957
+Africa	Reunion	57.666	1962
+Africa	Reunion	60.542	1967
+Africa	Reunion	64.274	1972
+Africa	Reunion	67.064	1977
+Africa	Reunion	69.885	1982
+Africa	Reunion	71.913	1987
+Africa	Reunion	73.615	1992
+Africa	Reunion	74.772	1997
+Africa	Reunion	75.744	2002
+Africa	Reunion	76.442	2007
+Africa	Rwanda	23.599	1992
+Africa	Rwanda	36.087	1997
+Africa	Rwanda	40	1952
+Africa	Rwanda	41.5	1957
+Africa	Rwanda	43	1962
+Africa	Rwanda	43.413	2002
+Africa	Rwanda	44.02	1987
+Africa	Rwanda	44.1	1967
+Africa	Rwanda	44.6	1972
+Africa	Rwanda	45	1977
+Africa	Rwanda	46.218	1982
+Africa	Rwanda	46.242	2007
+Africa	Sao Tome and Principe	46.471	1952
+Africa	Sao Tome and Principe	48.945	1957
+Africa	Sao Tome and Principe	51.893	1962
+Africa	Sao Tome and Principe	54.425	1967
+Africa	Sao Tome and Principe	56.48	1972
+Africa	Sao Tome and Principe	58.55	1977
+Africa	Sao Tome and Principe	60.351	1982
+Africa	Sao Tome and Principe	61.728	1987
+Africa	Sao Tome and Principe	62.742	1992
+Africa	Sao Tome and Principe	63.306	1997
+Africa	Sao Tome and Principe	64.337	2002
+Africa	Sao Tome and Principe	65.528	2007
+Africa	Senegal	37.278	1952
+Africa	Senegal	39.329	1957
+Africa	Senegal	41.454	1962
+Africa	Senegal	43.563	1967
+Africa	Senegal	45.815	1972
+Africa	Senegal	48.879	1977
+Africa	Senegal	52.379	1982
+Africa	Senegal	55.769	1987
+Africa	Senegal	58.196	1992
+Africa	Senegal	60.187	1997
+Africa	Senegal	61.6	2002
+Africa	Senegal	63.062	2007
+Africa	Sierra Leone	30.331	1952
+Africa	Sierra Leone	31.57	1957
+Africa	Sierra Leone	32.767	1962
+Africa	Sierra Leone	34.113	1967
+Africa	Sierra Leone	35.4	1972
+Africa	Sierra Leone	36.788	1977
+Africa	Sierra Leone	38.333	1992
+Africa	Sierra Leone	38.445	1982
+Africa	Sierra Leone	39.897	1997
+Africa	Sierra Leone	40.006	1987
+Africa	Sierra Leone	41.012	2002
+Africa	Sierra Leone	42.568	2007
+Africa	Somalia	32.978	1952
+Africa	Somalia	34.977	1957
+Africa	Somalia	36.981	1962
+Africa	Somalia	38.977	1967
+Africa	Somalia	39.658	1992
+Africa	Somalia	40.973	1972
+Africa	Somalia	41.974	1977
+Africa	Somalia	42.955	1982
+Africa	Somalia	43.795	1997
+Africa	Somalia	44.501	1987
+Africa	Somalia	45.936	2002
+Africa	Somalia	48.159	2007
+Africa	South Africa	45.009	1952
+Africa	South Africa	47.985	1957
+Africa	South Africa	49.339	2007
+Africa	South Africa	49.951	1962
+Africa	South Africa	51.927	1967
+Africa	South Africa	53.365	2002
+Africa	South Africa	53.696	1972
+Africa	South Africa	55.527	1977
+Africa	South Africa	58.161	1982
+Africa	South Africa	60.236	1997
+Africa	South Africa	60.834	1987
+Africa	South Africa	61.888	1992
+Africa	Sudan	38.635	1952
+Africa	Sudan	39.624	1957
+Africa	Sudan	40.87	1962
+Africa	Sudan	42.858	1967
+Africa	Sudan	45.083	1972
+Africa	Sudan	47.8	1977
+Africa	Sudan	50.338	1982
+Africa	Sudan	51.744	1987
+Africa	Sudan	53.556	1992
+Africa	Sudan	55.373	1997
+Africa	Sudan	56.369	2002
+Africa	Sudan	58.556	2007
+Africa	Swaziland	39.613	2007
+Africa	Swaziland	41.407	1952
+Africa	Swaziland	43.424	1957
+Africa	Swaziland	43.869	2002
+Africa	Swaziland	44.992	1962
+Africa	Swaziland	46.633	1967
+Africa	Swaziland	49.552	1972
+Africa	Swaziland	52.537	1977
+Africa	Swaziland	54.289	1997
+Africa	Swaziland	55.561	1982
+Africa	Swaziland	57.678	1987
+Africa	Swaziland	58.474	1992
+Africa	Tanzania	41.215	1952
+Africa	Tanzania	42.974	1957
+Africa	Tanzania	44.246	1962
+Africa	Tanzania	45.757	1967
+Africa	Tanzania	47.62	1972
+Africa	Tanzania	48.466	1997
+Africa	Tanzania	49.651	2002
+Africa	Tanzania	49.919	1977
+Africa	Tanzania	50.44	1992
+Africa	Tanzania	50.608	1982
+Africa	Tanzania	51.535	1987
+Africa	Tanzania	52.517	2007
+Africa	Togo	38.596	1952
+Africa	Togo	41.208	1957
+Africa	Togo	43.922	1962
+Africa	Togo	46.769	1967
+Africa	Togo	49.759	1972
+Africa	Togo	52.887	1977
+Africa	Togo	55.471	1982
+Africa	Togo	56.941	1987
+Africa	Togo	57.561	2002
+Africa	Togo	58.061	1992
+Africa	Togo	58.39	1997
+Africa	Togo	58.42	2007
+Africa	Tunisia	44.6	1952
+Africa	Tunisia	47.1	1957
+Africa	Tunisia	49.579	1962
+Africa	Tunisia	52.053	1967
+Africa	Tunisia	55.602	1972
+Africa	Tunisia	59.837	1977
+Africa	Tunisia	64.048	1982
+Africa	Tunisia	66.894	1987
+Africa	Tunisia	70.001	1992
+Africa	Tunisia	71.973	1997
+Africa	Tunisia	73.042	2002
+Africa	Tunisia	73.923	2007
+Africa	Uganda	39.978	1952
+Africa	Uganda	42.571	1957
+Africa	Uganda	44.578	1997
+Africa	Uganda	45.344	1962
+Africa	Uganda	47.813	2002
+Africa	Uganda	48.051	1967
+Africa	Uganda	48.825	1992
+Africa	Uganda	49.849	1982
+Africa	Uganda	50.35	1977
+Africa	Uganda	51.016	1972
+Africa	Uganda	51.509	1987
+Africa	Uganda	51.542	2007
+Africa	Zambia	39.193	2002
+Africa	Zambia	40.238	1997
+Africa	Zambia	42.038	1952
+Africa	Zambia	42.384	2007
+Africa	Zambia	44.077	1957
+Africa	Zambia	46.023	1962
+Africa	Zambia	46.1	1992
+Africa	Zambia	47.768	1967
+Africa	Zambia	50.107	1972
+Africa	Zambia	50.821	1987
+Africa	Zambia	51.386	1977
+Africa	Zambia	51.821	1982
+Africa	Zimbabwe	39.989	2002
+Africa	Zimbabwe	43.487	2007
+Africa	Zimbabwe	46.809	1997
+Africa	Zimbabwe	48.451	1952
+Africa	Zimbabwe	50.469	1957
+Africa	Zimbabwe	52.358	1962
+Africa	Zimbabwe	53.995	1967
+Africa	Zimbabwe	55.635	1972
+Africa	Zimbabwe	57.674	1977
+Africa	Zimbabwe	60.363	1982
+Africa	Zimbabwe	60.377	1992
+Africa	Zimbabwe	62.351	1987
+Asia	Afghanistan	28.801	1952
+Asia	Afghanistan	30.332	1957
+Asia	Afghanistan	31.997	1962
+Asia	Afghanistan	34.02	1967
+Asia	Afghanistan	36.088	1972
+Asia	Afghanistan	38.438	1977
+Asia	Afghanistan	39.854	1982
+Asia	Afghanistan	40.822	1987
+Asia	Afghanistan	41.674	1992
+Asia	Afghanistan	41.763	1997
+Asia	Afghanistan	42.129	2002
+Asia	Afghanistan	43.828	2007
+Asia	Bahrain	50.939	1952
+Asia	Bahrain	53.832	1957
+Asia	Bahrain	56.923	1962
+Asia	Bahrain	59.923	1967
+Asia	Bahrain	63.3	1972
+Asia	Bahrain	65.593	1977
+Asia	Bahrain	69.052	1982
+Asia	Bahrain	70.75	1987
+Asia	Bahrain	72.601	1992
+Asia	Bahrain	73.925	1997
+Asia	Bahrain	74.795	2002
+Asia	Bahrain	75.635	2007
+Asia	Bangladesh	37.484	1952
+Asia	Bangladesh	39.348	1957
+Asia	Bangladesh	41.216	1962
+Asia	Bangladesh	43.453	1967
+Asia	Bangladesh	45.252	1972
+Asia	Bangladesh	46.923	1977
+Asia	Bangladesh	50.009	1982
+Asia	Bangladesh	52.819	1987
+Asia	Bangladesh	56.018	1992
+Asia	Bangladesh	59.412	1997
+Asia	Bangladesh	62.013	2002
+Asia	Bangladesh	64.062	2007
+Asia	Cambodia	31.22	1977
+Asia	Cambodia	39.417	1952
+Asia	Cambodia	40.317	1972
+Asia	Cambodia	41.366	1957
+Asia	Cambodia	43.415	1962
+Asia	Cambodia	45.415	1967
+Asia	Cambodia	50.957	1982
+Asia	Cambodia	53.914	1987
+Asia	Cambodia	55.803	1992
+Asia	Cambodia	56.534	1997
+Asia	Cambodia	56.752	2002
+Asia	Cambodia	59.723	2007
+Asia	China	44	1952
+Asia	China	44.50136	1962
+Asia	China	50.54896	1957
+Asia	China	58.38112	1967
+Asia	China	63.11888	1972
+Asia	China	63.96736	1977
+Asia	China	65.525	1982
+Asia	China	67.274	1987
+Asia	China	68.69	1992
+Asia	China	70.426	1997
+Asia	China	72.028	2002
+Asia	China	72.961	2007
+Asia	Hong Kong, China	60.96	1952
+Asia	Hong Kong, China	64.75	1957
+Asia	Hong Kong, China	67.65	1962
+Asia	Hong Kong, China	70	1967
+Asia	Hong Kong, China	72	1972
+Asia	Hong Kong, China	73.6	1977
+Asia	Hong Kong, China	75.45	1982
+Asia	Hong Kong, China	76.2	1987
+Asia	Hong Kong, China	77.601	1992
+Asia	Hong Kong, China	80	1997
+Asia	Hong Kong, China	81.495	2002
+Asia	Hong Kong, China	82.208	2007
+Asia	India	37.373	1952
+Asia	India	40.249	1957
+Asia	India	43.605	1962
+Asia	India	47.193	1967
+Asia	India	50.651	1972
+Asia	India	54.208	1977
+Asia	India	56.596	1982
+Asia	India	58.553	1987
+Asia	India	60.223	1992
+Asia	India	61.765	1997
+Asia	India	62.879	2002
+Asia	India	64.698	2007
+Asia	Indonesia	37.468	1952
+Asia	Indonesia	39.918	1957
+Asia	Indonesia	42.518	1962
+Asia	Indonesia	45.964	1967
+Asia	Indonesia	49.203	1972
+Asia	Indonesia	52.702	1977
+Asia	Indonesia	56.159	1982
+Asia	Indonesia	60.137	1987
+Asia	Indonesia	62.681	1992
+Asia	Indonesia	66.041	1997
+Asia	Indonesia	68.588	2002
+Asia	Indonesia	70.65	2007
+Asia	Iran	44.869	1952
+Asia	Iran	47.181	1957
+Asia	Iran	49.325	1962
+Asia	Iran	52.469	1967
+Asia	Iran	55.234	1972
+Asia	Iran	57.702	1977
+Asia	Iran	59.62	1982
+Asia	Iran	63.04	1987
+Asia	Iran	65.742	1992
+Asia	Iran	68.042	1997
+Asia	Iran	69.451	2002
+Asia	Iran	70.964	2007
+Asia	Iraq	45.32	1952
+Asia	Iraq	48.437	1957
+Asia	Iraq	51.457	1962
+Asia	Iraq	54.459	1967
+Asia	Iraq	56.95	1972
+Asia	Iraq	57.046	2002
+Asia	Iraq	58.811	1997
+Asia	Iraq	59.461	1992
+Asia	Iraq	59.545	2007
+Asia	Iraq	60.413	1977
+Asia	Iraq	62.038	1982
+Asia	Iraq	65.044	1987
+Asia	Israel	65.39	1952
+Asia	Israel	67.84	1957
+Asia	Israel	69.39	1962
+Asia	Israel	70.75	1967
+Asia	Israel	71.63	1972
+Asia	Israel	73.06	1977
+Asia	Israel	74.45	1982
+Asia	Israel	75.6	1987
+Asia	Israel	76.93	1992
+Asia	Israel	78.269	1997
+Asia	Israel	79.696	2002
+Asia	Israel	80.745	2007
+Asia	Japan	63.03	1952
+Asia	Japan	65.5	1957
+Asia	Japan	68.73	1962
+Asia	Japan	71.43	1967
+Asia	Japan	73.42	1972
+Asia	Japan	75.38	1977
+Asia	Japan	77.11	1982
+Asia	Japan	78.67	1987
+Asia	Japan	79.36	1992
+Asia	Japan	80.69	1997
+Asia	Japan	82	2002
+Asia	Japan	82.603	2007
+Asia	Jordan	43.158	1952
+Asia	Jordan	45.669	1957
+Asia	Jordan	48.126	1962
+Asia	Jordan	51.629	1967
+Asia	Jordan	56.528	1972
+Asia	Jordan	61.134	1977
+Asia	Jordan	63.739	1982
+Asia	Jordan	65.869	1987
+Asia	Jordan	68.015	1992
+Asia	Jordan	69.772	1997
+Asia	Jordan	71.263	2002
+Asia	Jordan	72.535	2007
+Asia	Korea, Dem. Rep.	50.056	1952
+Asia	Korea, Dem. Rep.	54.081	1957
+Asia	Korea, Dem. Rep.	56.656	1962
+Asia	Korea, Dem. Rep.	59.942	1967
+Asia	Korea, Dem. Rep.	63.983	1972
+Asia	Korea, Dem. Rep.	66.662	2002
+Asia	Korea, Dem. Rep.	67.159	1977
+Asia	Korea, Dem. Rep.	67.297	2007
+Asia	Korea, Dem. Rep.	67.727	1997
+Asia	Korea, Dem. Rep.	69.1	1982
+Asia	Korea, Dem. Rep.	69.978	1992
+Asia	Korea, Dem. Rep.	70.647	1987
+Asia	Korea, Rep.	47.453	1952
+Asia	Korea, Rep.	52.681	1957
+Asia	Korea, Rep.	55.292	1962
+Asia	Korea, Rep.	57.716	1967
+Asia	Korea, Rep.	62.612	1972
+Asia	Korea, Rep.	64.766	1977
+Asia	Korea, Rep.	67.123	1982
+Asia	Korea, Rep.	69.81	1987
+Asia	Korea, Rep.	72.244	1992
+Asia	Korea, Rep.	74.647	1997
+Asia	Korea, Rep.	77.045	2002
+Asia	Korea, Rep.	78.623	2007
+Asia	Kuwait	55.565	1952
+Asia	Kuwait	58.033	1957
+Asia	Kuwait	60.47	1962
+Asia	Kuwait	64.624	1967
+Asia	Kuwait	67.712	1972
+Asia	Kuwait	69.343	1977
+Asia	Kuwait	71.309	1982
+Asia	Kuwait	74.174	1987
+Asia	Kuwait	75.19	1992
+Asia	Kuwait	76.156	1997
+Asia	Kuwait	76.904	2002
+Asia	Kuwait	77.588	2007
+Asia	Lebanon	55.928	1952
+Asia	Lebanon	59.489	1957
+Asia	Lebanon	62.094	1962
+Asia	Lebanon	63.87	1967
+Asia	Lebanon	65.421	1972
+Asia	Lebanon	66.099	1977
+Asia	Lebanon	66.983	1982
+Asia	Lebanon	67.926	1987
+Asia	Lebanon	69.292	1992
+Asia	Lebanon	70.265	1997
+Asia	Lebanon	71.028	2002
+Asia	Lebanon	71.993	2007
+Asia	Malaysia	48.463	1952
+Asia	Malaysia	52.102	1957
+Asia	Malaysia	55.737	1962
+Asia	Malaysia	59.371	1967
+Asia	Malaysia	63.01	1972
+Asia	Malaysia	65.256	1977
+Asia	Malaysia	68	1982
+Asia	Malaysia	69.5	1987
+Asia	Malaysia	70.693	1992
+Asia	Malaysia	71.938	1997
+Asia	Malaysia	73.044	2002
+Asia	Malaysia	74.241	2007
+Asia	Mongolia	42.244	1952
+Asia	Mongolia	45.248	1957
+Asia	Mongolia	48.251	1962
+Asia	Mongolia	51.253	1967
+Asia	Mongolia	53.754	1972
+Asia	Mongolia	55.491	1977
+Asia	Mongolia	57.489	1982
+Asia	Mongolia	60.222	1987
+Asia	Mongolia	61.271	1992
+Asia	Mongolia	63.625	1997
+Asia	Mongolia	65.033	2002
+Asia	Mongolia	66.803	2007
+Asia	Myanmar	36.319	1952
+Asia	Myanmar	41.905	1957
+Asia	Myanmar	45.108	1962
+Asia	Myanmar	49.379	1967
+Asia	Myanmar	53.07	1972
+Asia	Myanmar	56.059	1977
+Asia	Myanmar	58.056	1982
+Asia	Myanmar	58.339	1987
+Asia	Myanmar	59.32	1992
+Asia	Myanmar	59.908	2002
+Asia	Myanmar	60.328	1997
+Asia	Myanmar	62.069	2007
+Asia	Nepal	36.157	1952
+Asia	Nepal	37.686	1957
+Asia	Nepal	39.393	1962
+Asia	Nepal	41.472	1967
+Asia	Nepal	43.971	1972
+Asia	Nepal	46.748	1977
+Asia	Nepal	49.594	1982
+Asia	Nepal	52.537	1987
+Asia	Nepal	55.727	1992
+Asia	Nepal	59.426	1997
+Asia	Nepal	61.34	2002
+Asia	Nepal	63.785	2007
+Asia	Oman	37.578	1952
+Asia	Oman	40.08	1957
+Asia	Oman	43.165	1962
+Asia	Oman	46.988	1967
+Asia	Oman	52.143	1972
+Asia	Oman	57.367	1977
+Asia	Oman	62.728	1982
+Asia	Oman	67.734	1987
+Asia	Oman	71.197	1992
+Asia	Oman	72.499	1997
+Asia	Oman	74.193	2002
+Asia	Oman	75.64	2007
+Asia	Pakistan	43.436	1952
+Asia	Pakistan	45.557	1957
+Asia	Pakistan	47.67	1962
+Asia	Pakistan	49.8	1967
+Asia	Pakistan	51.929	1972
+Asia	Pakistan	54.043	1977
+Asia	Pakistan	56.158	1982
+Asia	Pakistan	58.245	1987
+Asia	Pakistan	60.838	1992
+Asia	Pakistan	61.818	1997
+Asia	Pakistan	63.61	2002
+Asia	Pakistan	65.483	2007
+Asia	Philippines	47.752	1952
+Asia	Philippines	51.334	1957
+Asia	Philippines	54.757	1962
+Asia	Philippines	56.393	1967
+Asia	Philippines	58.065	1972
+Asia	Philippines	60.06	1977
+Asia	Philippines	62.082	1982
+Asia	Philippines	64.151	1987
+Asia	Philippines	66.458	1992
+Asia	Philippines	68.564	1997
+Asia	Philippines	70.303	2002
+Asia	Philippines	71.688	2007
+Asia	Saudi Arabia	39.875	1952
+Asia	Saudi Arabia	42.868	1957
+Asia	Saudi Arabia	45.914	1962
+Asia	Saudi Arabia	49.901	1967
+Asia	Saudi Arabia	53.886	1972
+Asia	Saudi Arabia	58.69	1977
+Asia	Saudi Arabia	63.012	1982
+Asia	Saudi Arabia	66.295	1987
+Asia	Saudi Arabia	68.768	1992
+Asia	Saudi Arabia	70.533	1997
+Asia	Saudi Arabia	71.626	2002
+Asia	Saudi Arabia	72.777	2007
+Asia	Singapore	60.396	1952
+Asia	Singapore	63.179	1957
+Asia	Singapore	65.798	1962
+Asia	Singapore	67.946	1967
+Asia	Singapore	69.521	1972
+Asia	Singapore	70.795	1977
+Asia	Singapore	71.76	1982
+Asia	Singapore	73.56	1987
+Asia	Singapore	75.788	1992
+Asia	Singapore	77.158	1997
+Asia	Singapore	78.77	2002
+Asia	Singapore	79.972	2007
+Asia	Sri Lanka	57.593	1952
+Asia	Sri Lanka	61.456	1957
+Asia	Sri Lanka	62.192	1962
+Asia	Sri Lanka	64.266	1967
+Asia	Sri Lanka	65.042	1972
+Asia	Sri Lanka	65.949	1977
+Asia	Sri Lanka	68.757	1982
+Asia	Sri Lanka	69.011	1987
+Asia	Sri Lanka	70.379	1992
+Asia	Sri Lanka	70.457	1997
+Asia	Sri Lanka	70.815	2002
+Asia	Sri Lanka	72.396	2007
+Asia	Syria	45.883	1952
+Asia	Syria	48.284	1957
+Asia	Syria	50.305	1962
+Asia	Syria	53.655	1967
+Asia	Syria	57.296	1972
+Asia	Syria	61.195	1977
+Asia	Syria	64.59	1982
+Asia	Syria	66.974	1987
+Asia	Syria	69.249	1992
+Asia	Syria	71.527	1997
+Asia	Syria	73.053	2002
+Asia	Syria	74.143	2007
+Asia	Taiwan	58.5	1952
+Asia	Taiwan	62.4	1957
+Asia	Taiwan	65.2	1962
+Asia	Taiwan	67.5	1967
+Asia	Taiwan	69.39	1972
+Asia	Taiwan	70.59	1977
+Asia	Taiwan	72.16	1982
+Asia	Taiwan	73.4	1987
+Asia	Taiwan	74.26	1992
+Asia	Taiwan	75.25	1997
+Asia	Taiwan	76.99	2002
+Asia	Taiwan	78.4	2007
+Asia	Thailand	50.848	1952
+Asia	Thailand	53.63	1957
+Asia	Thailand	56.061	1962
+Asia	Thailand	58.285	1967
+Asia	Thailand	60.405	1972
+Asia	Thailand	62.494	1977
+Asia	Thailand	64.597	1982
+Asia	Thailand	66.084	1987
+Asia	Thailand	67.298	1992
+Asia	Thailand	67.521	1997
+Asia	Thailand	68.564	2002
+Asia	Thailand	70.616	2007
+Asia	Vietnam	40.412	1952
+Asia	Vietnam	42.887	1957
+Asia	Vietnam	45.363	1962
+Asia	Vietnam	47.838	1967
+Asia	Vietnam	50.254	1972
+Asia	Vietnam	55.764	1977
+Asia	Vietnam	58.816	1982
+Asia	Vietnam	62.82	1987
+Asia	Vietnam	67.662	1992
+Asia	Vietnam	70.672	1997
+Asia	Vietnam	73.017	2002
+Asia	Vietnam	74.249	2007
+Asia	West Bank and Gaza	43.16	1952
+Asia	West Bank and Gaza	45.671	1957
+Asia	West Bank and Gaza	48.127	1962
+Asia	West Bank and Gaza	51.631	1967
+Asia	West Bank and Gaza	56.532	1972
+Asia	West Bank and Gaza	60.765	1977
+Asia	West Bank and Gaza	64.406	1982
+Asia	West Bank and Gaza	67.046	1987
+Asia	West Bank and Gaza	69.718	1992
+Asia	West Bank and Gaza	71.096	1997
+Asia	West Bank and Gaza	72.37	2002
+Asia	West Bank and Gaza	73.422	2007
+Asia	Yemen, Rep.	32.548	1952
+Asia	Yemen, Rep.	33.97	1957
+Asia	Yemen, Rep.	35.18	1962
+Asia	Yemen, Rep.	36.984	1967
+Asia	Yemen, Rep.	39.848	1972
+Asia	Yemen, Rep.	44.175	1977
+Asia	Yemen, Rep.	49.113	1982
+Asia	Yemen, Rep.	52.922	1987
+Asia	Yemen, Rep.	55.599	1992
+Asia	Yemen, Rep.	58.02	1997
+Asia	Yemen, Rep.	60.308	2002
+Asia	Yemen, Rep.	62.698	2007
+Americas	Argentina	62.485	1952
+Americas	Argentina	64.399	1957
+Americas	Argentina	65.142	1962
+Americas	Argentina	65.634	1967
+Americas	Argentina	67.065	1972
+Americas	Argentina	68.481	1977
+Americas	Argentina	69.942	1982
+Americas	Argentina	70.774	1987
+Americas	Argentina	71.868	1992
+Americas	Argentina	73.275	1997
+Americas	Argentina	74.34	2002
+Americas	Argentina	75.32	2007
+Americas	Bolivia	40.414	1952
+Americas	Bolivia	41.89	1957
+Americas	Bolivia	43.428	1962
+Americas	Bolivia	45.032	1967
+Americas	Bolivia	46.714	1972
+Americas	Bolivia	50.023	1977
+Americas	Bolivia	53.859	1982
+Americas	Bolivia	57.251	1987
+Americas	Bolivia	59.957	1992
+Americas	Bolivia	62.05	1997
+Americas	Bolivia	63.883	2002
+Americas	Bolivia	65.554	2007
+Americas	Brazil	50.917	1952
+Americas	Brazil	53.285	1957
+Americas	Brazil	55.665	1962
+Americas	Brazil	57.632	1967
+Americas	Brazil	59.504	1972
+Americas	Brazil	61.489	1977
+Americas	Brazil	63.336	1982
+Americas	Brazil	65.205	1987
+Americas	Brazil	67.057	1992
+Americas	Brazil	69.388	1997
+Americas	Brazil	71.006	2002
+Americas	Brazil	72.39	2007
+Americas	Canada	68.75	1952
+Americas	Canada	69.96	1957
+Americas	Canada	71.3	1962
+Americas	Canada	72.13	1967
+Americas	Canada	72.88	1972
+Americas	Canada	74.21	1977
+Americas	Canada	75.76	1982
+Americas	Canada	76.86	1987
+Americas	Canada	77.95	1992
+Americas	Canada	78.61	1997
+Americas	Canada	79.77	2002
+Americas	Canada	80.653	2007
+Americas	Chile	54.745	1952
+Americas	Chile	56.074	1957
+Americas	Chile	57.924	1962
+Americas	Chile	60.523	1967
+Americas	Chile	63.441	1972
+Americas	Chile	67.052	1977
+Americas	Chile	70.565	1982
+Americas	Chile	72.492	1987
+Americas	Chile	74.126	1992
+Americas	Chile	75.816	1997
+Americas	Chile	77.86	2002
+Americas	Chile	78.553	2007
+Americas	Colombia	50.643	1952
+Americas	Colombia	55.118	1957
+Americas	Colombia	57.863	1962
+Americas	Colombia	59.963	1967
+Americas	Colombia	61.623	1972
+Americas	Colombia	63.837	1977
+Americas	Colombia	66.653	1982
+Americas	Colombia	67.768	1987
+Americas	Colombia	68.421	1992
+Americas	Colombia	70.313	1997
+Americas	Colombia	71.682	2002
+Americas	Colombia	72.889	2007
+Americas	Costa Rica	57.206	1952
+Americas	Costa Rica	60.026	1957
+Americas	Costa Rica	62.842	1962
+Americas	Costa Rica	65.424	1967
+Americas	Costa Rica	67.849	1972
+Americas	Costa Rica	70.75	1977
+Americas	Costa Rica	73.45	1982
+Americas	Costa Rica	74.752	1987
+Americas	Costa Rica	75.713	1992
+Americas	Costa Rica	77.26	1997
+Americas	Costa Rica	78.123	2002
+Americas	Costa Rica	78.782	2007
+Americas	Cuba	59.421	1952
+Americas	Cuba	62.325	1957
+Americas	Cuba	65.246	1962
+Americas	Cuba	68.29	1967
+Americas	Cuba	70.723	1972
+Americas	Cuba	72.649	1977
+Americas	Cuba	73.717	1982
+Americas	Cuba	74.174	1987
+Americas	Cuba	74.414	1992
+Americas	Cuba	76.151	1997
+Americas	Cuba	77.158	2002
+Americas	Cuba	78.273	2007
+Americas	Dominican Republic	45.928	1952
+Americas	Dominican Republic	49.828	1957
+Americas	Dominican Republic	53.459	1962
+Americas	Dominican Republic	56.751	1967
+Americas	Dominican Republic	59.631	1972
+Americas	Dominican Republic	61.788	1977
+Americas	Dominican Republic	63.727	1982
+Americas	Dominican Republic	66.046	1987
+Americas	Dominican Republic	68.457	1992
+Americas	Dominican Republic	69.957	1997
+Americas	Dominican Republic	70.847	2002
+Americas	Dominican Republic	72.235	2007
+Americas	Ecuador	48.357	1952
+Americas	Ecuador	51.356	1957
+Americas	Ecuador	54.64	1962
+Americas	Ecuador	56.678	1967
+Americas	Ecuador	58.796	1972
+Americas	Ecuador	61.31	1977
+Americas	Ecuador	64.342	1982
+Americas	Ecuador	67.231	1987
+Americas	Ecuador	69.613	1992
+Americas	Ecuador	72.312	1997
+Americas	Ecuador	74.173	2002
+Americas	Ecuador	74.994	2007
+Americas	El Salvador	45.262	1952
+Americas	El Salvador	48.57	1957
+Americas	El Salvador	52.307	1962
+Americas	El Salvador	55.855	1967
+Americas	El Salvador	56.604	1982
+Americas	El Salvador	56.696	1977
+Americas	El Salvador	58.207	1972
+Americas	El Salvador	63.154	1987
+Americas	El Salvador	66.798	1992
+Americas	El Salvador	69.535	1997
+Americas	El Salvador	70.734	2002
+Americas	El Salvador	71.878	2007
+Americas	Guatemala	42.023	1952
+Americas	Guatemala	44.142	1957
+Americas	Guatemala	46.954	1962
+Americas	Guatemala	50.016	1967
+Americas	Guatemala	53.738	1972
+Americas	Guatemala	56.029	1977
+Americas	Guatemala	58.137	1982
+Americas	Guatemala	60.782	1987
+Americas	Guatemala	63.373	1992
+Americas	Guatemala	66.322	1997
+Americas	Guatemala	68.978	2002
+Americas	Guatemala	70.259	2007
+Americas	Haiti	37.579	1952
+Americas	Haiti	40.696	1957
+Americas	Haiti	43.59	1962
+Americas	Haiti	46.243	1967
+Americas	Haiti	48.042	1972
+Americas	Haiti	49.923	1977
+Americas	Haiti	51.461	1982
+Americas	Haiti	53.636	1987
+Americas	Haiti	55.089	1992
+Americas	Haiti	56.671	1997
+Americas	Haiti	58.137	2002
+Americas	Haiti	60.916	2007
+Americas	Honduras	41.912	1952
+Americas	Honduras	44.665	1957
+Americas	Honduras	48.041	1962
+Americas	Honduras	50.924	1967
+Americas	Honduras	53.884	1972
+Americas	Honduras	57.402	1977
+Americas	Honduras	60.909	1982
+Americas	Honduras	64.492	1987
+Americas	Honduras	66.399	1992
+Americas	Honduras	67.659	1997
+Americas	Honduras	68.565	2002
+Americas	Honduras	70.198	2007
+Americas	Jamaica	58.53	1952
+Americas	Jamaica	62.61	1957
+Americas	Jamaica	65.61	1962
+Americas	Jamaica	67.51	1967
+Americas	Jamaica	69	1972
+Americas	Jamaica	70.11	1977
+Americas	Jamaica	71.21	1982
+Americas	Jamaica	71.766	1992
+Americas	Jamaica	71.77	1987
+Americas	Jamaica	72.047	2002
+Americas	Jamaica	72.262	1997
+Americas	Jamaica	72.567	2007
+Americas	Mexico	50.789	1952
+Americas	Mexico	55.19	1957
+Americas	Mexico	58.299	1962
+Americas	Mexico	60.11	1967
+Americas	Mexico	62.361	1972
+Americas	Mexico	65.032	1977
+Americas	Mexico	67.405	1982
+Americas	Mexico	69.498	1987
+Americas	Mexico	71.455	1992
+Americas	Mexico	73.67	1997
+Americas	Mexico	74.902	2002
+Americas	Mexico	76.195	2007
+Americas	Nicaragua	42.314	1952
+Americas	Nicaragua	45.432	1957
+Americas	Nicaragua	48.632	1962
+Americas	Nicaragua	51.884	1967
+Americas	Nicaragua	55.151	1972
+Americas	Nicaragua	57.47	1977
+Americas	Nicaragua	59.298	1982
+Americas	Nicaragua	62.008	1987
+Americas	Nicaragua	65.843	1992
+Americas	Nicaragua	68.426	1997
+Americas	Nicaragua	70.836	2002
+Americas	Nicaragua	72.899	2007
+Americas	Panama	55.191	1952
+Americas	Panama	59.201	1957
+Americas	Panama	61.817	1962
+Americas	Panama	64.071	1967
+Americas	Panama	66.216	1972
+Americas	Panama	68.681	1977
+Americas	Panama	70.472	1982
+Americas	Panama	71.523	1987
+Americas	Panama	72.462	1992
+Americas	Panama	73.738	1997
+Americas	Panama	74.712	2002
+Americas	Panama	75.537	2007
+Americas	Paraguay	62.649	1952
+Americas	Paraguay	63.196	1957
+Americas	Paraguay	64.361	1962
+Americas	Paraguay	64.951	1967
+Americas	Paraguay	65.815	1972
+Americas	Paraguay	66.353	1977
+Americas	Paraguay	66.874	1982
+Americas	Paraguay	67.378	1987
+Americas	Paraguay	68.225	1992
+Americas	Paraguay	69.4	1997
+Americas	Paraguay	70.755	2002
+Americas	Paraguay	71.752	2007
+Americas	Peru	43.902	1952
+Americas	Peru	46.263	1957
+Americas	Peru	49.096	1962
+Americas	Peru	51.445	1967
+Americas	Peru	55.448	1972
+Americas	Peru	58.447	1977
+Americas	Peru	61.406	1982
+Americas	Peru	64.134	1987
+Americas	Peru	66.458	1992
+Americas	Peru	68.386	1997
+Americas	Peru	69.906	2002
+Americas	Peru	71.421	2007
+Americas	Puerto Rico	64.28	1952
+Americas	Puerto Rico	68.54	1957
+Americas	Puerto Rico	69.62	1962
+Americas	Puerto Rico	71.1	1967
+Americas	Puerto Rico	72.16	1972
+Americas	Puerto Rico	73.44	1977
+Americas	Puerto Rico	73.75	1982
+Americas	Puerto Rico	73.911	1992
+Americas	Puerto Rico	74.63	1987
+Americas	Puerto Rico	74.917	1997
+Americas	Puerto Rico	77.778	2002
+Americas	Puerto Rico	78.746	2007
+Americas	Trinidad and Tobago	59.1	1952
+Americas	Trinidad and Tobago	61.8	1957
+Americas	Trinidad and Tobago	64.9	1962
+Americas	Trinidad and Tobago	65.4	1967
+Americas	Trinidad and Tobago	65.9	1972
+Americas	Trinidad and Tobago	68.3	1977
+Americas	Trinidad and Tobago	68.832	1982
+Americas	Trinidad and Tobago	68.976	2002
+Americas	Trinidad and Tobago	69.465	1997
+Americas	Trinidad and Tobago	69.582	1987
+Americas	Trinidad and Tobago	69.819	2007
+Americas	Trinidad and Tobago	69.862	1992
+Americas	United States	68.44	1952
+Americas	United States	69.49	1957
+Americas	United States	70.21	1962
+Americas	United States	70.76	1967
+Americas	United States	71.34	1972
+Americas	United States	73.38	1977
+Americas	United States	74.65	1982
+Americas	United States	75.02	1987
+Americas	United States	76.09	1992
+Americas	United States	76.81	1997
+Americas	United States	77.31	2002
+Americas	United States	78.242	2007
+Americas	Uruguay	66.071	1952
+Americas	Uruguay	67.044	1957
+Americas	Uruguay	68.253	1962
+Americas	Uruguay	68.468	1967
+Americas	Uruguay	68.673	1972
+Americas	Uruguay	69.481	1977
+Americas	Uruguay	70.805	1982
+Americas	Uruguay	71.918	1987
+Americas	Uruguay	72.752	1992
+Americas	Uruguay	74.223	1997
+Americas	Uruguay	75.307	2002
+Americas	Uruguay	76.384	2007
+Americas	Venezuela	55.088	1952
+Americas	Venezuela	57.907	1957
+Americas	Venezuela	60.77	1962
+Americas	Venezuela	63.479	1967
+Americas	Venezuela	65.712	1972
+Americas	Venezuela	67.456	1977
+Americas	Venezuela	68.557	1982
+Americas	Venezuela	70.19	1987
+Americas	Venezuela	71.15	1992
+Americas	Venezuela	72.146	1997
+Americas	Venezuela	72.766	2002
+Americas	Venezuela	73.747	2007
+Europe	Albania	55.23	1952
+Europe	Albania	59.28	1957
+Europe	Albania	64.82	1962
+Europe	Albania	66.22	1967
+Europe	Albania	67.69	1972
+Europe	Albania	68.93	1977
+Europe	Albania	70.42	1982
+Europe	Albania	71.581	1992
+Europe	Albania	72	1987
+Europe	Albania	72.95	1997
+Europe	Albania	75.651	2002
+Europe	Albania	76.423	2007
+Europe	Austria	66.8	1952
+Europe	Austria	67.48	1957
+Europe	Austria	69.54	1962
+Europe	Austria	70.14	1967
+Europe	Austria	70.63	1972
+Europe	Austria	72.17	1977
+Europe	Austria	73.18	1982
+Europe	Austria	74.94	1987
+Europe	Austria	76.04	1992
+Europe	Austria	77.51	1997
+Europe	Austria	78.98	2002
+Europe	Austria	79.829	2007
+Europe	Belgium	68	1952
+Europe	Belgium	69.24	1957
+Europe	Belgium	70.25	1962
+Europe	Belgium	70.94	1967
+Europe	Belgium	71.44	1972
+Europe	Belgium	72.8	1977
+Europe	Belgium	73.93	1982
+Europe	Belgium	75.35	1987
+Europe	Belgium	76.46	1992
+Europe	Belgium	77.53	1997
+Europe	Belgium	78.32	2002
+Europe	Belgium	79.441	2007
+Europe	Bosnia and Herzegovina	53.82	1952
+Europe	Bosnia and Herzegovina	58.45	1957
+Europe	Bosnia and Herzegovina	61.93	1962
+Europe	Bosnia and Herzegovina	64.79	1967
+Europe	Bosnia and Herzegovina	67.45	1972
+Europe	Bosnia and Herzegovina	69.86	1977
+Europe	Bosnia and Herzegovina	70.69	1982
+Europe	Bosnia and Herzegovina	71.14	1987
+Europe	Bosnia and Herzegovina	72.178	1992
+Europe	Bosnia and Herzegovina	73.244	1997
+Europe	Bosnia and Herzegovina	74.09	2002
+Europe	Bosnia and Herzegovina	74.852	2007
+Europe	Bulgaria	59.6	1952
+Europe	Bulgaria	66.61	1957
+Europe	Bulgaria	69.51	1962
+Europe	Bulgaria	70.32	1997
+Europe	Bulgaria	70.42	1967
+Europe	Bulgaria	70.81	1977
+Europe	Bulgaria	70.9	1972
+Europe	Bulgaria	71.08	1982
+Europe	Bulgaria	71.19	1992
+Europe	Bulgaria	71.34	1987
+Europe	Bulgaria	72.14	2002
+Europe	Bulgaria	73.005	2007
+Europe	Croatia	61.21	1952
+Europe	Croatia	64.77	1957
+Europe	Croatia	67.13	1962
+Europe	Croatia	68.5	1967
+Europe	Croatia	69.61	1972
+Europe	Croatia	70.46	1982
+Europe	Croatia	70.64	1977
+Europe	Croatia	71.52	1987
+Europe	Croatia	72.527	1992
+Europe	Croatia	73.68	1997
+Europe	Croatia	74.876	2002
+Europe	Croatia	75.748	2007
+Europe	Czech Republic	66.87	1952
+Europe	Czech Republic	69.03	1957
+Europe	Czech Republic	69.9	1962
+Europe	Czech Republic	70.29	1972
+Europe	Czech Republic	70.38	1967
+Europe	Czech Republic	70.71	1977
+Europe	Czech Republic	70.96	1982
+Europe	Czech Republic	71.58	1987
+Europe	Czech Republic	72.4	1992
+Europe	Czech Republic	74.01	1997
+Europe	Czech Republic	75.51	2002
+Europe	Czech Republic	76.486	2007
+Europe	Denmark	70.78	1952
+Europe	Denmark	71.81	1957
+Europe	Denmark	72.35	1962
+Europe	Denmark	72.96	1967
+Europe	Denmark	73.47	1972
+Europe	Denmark	74.63	1982
+Europe	Denmark	74.69	1977
+Europe	Denmark	74.8	1987
+Europe	Denmark	75.33	1992
+Europe	Denmark	76.11	1997
+Europe	Denmark	77.18	2002
+Europe	Denmark	78.332	2007
+Europe	Finland	66.55	1952
+Europe	Finland	67.49	1957
+Europe	Finland	68.75	1962
+Europe	Finland	69.83	1967
+Europe	Finland	70.87	1972
+Europe	Finland	72.52	1977
+Europe	Finland	74.55	1982
+Europe	Finland	74.83	1987
+Europe	Finland	75.7	1992
+Europe	Finland	77.13	1997
+Europe	Finland	78.37	2002
+Europe	Finland	79.313	2007
+Europe	France	67.41	1952
+Europe	France	68.93	1957
+Europe	France	70.51	1962
+Europe	France	71.55	1967
+Europe	France	72.38	1972
+Europe	France	73.83	1977
+Europe	France	74.89	1982
+Europe	France	76.34	1987
+Europe	France	77.46	1992
+Europe	France	78.64	1997
+Europe	France	79.59	2002
+Europe	France	80.657	2007
+Europe	Germany	67.5	1952
+Europe	Germany	69.1	1957
+Europe	Germany	70.3	1962
+Europe	Germany	70.8	1967
+Europe	Germany	71	1972
+Europe	Germany	72.5	1977
+Europe	Germany	73.8	1982
+Europe	Germany	74.847	1987
+Europe	Germany	76.07	1992
+Europe	Germany	77.34	1997
+Europe	Germany	78.67	2002
+Europe	Germany	79.406	2007
+Europe	Greece	65.86	1952
+Europe	Greece	67.86	1957
+Europe	Greece	69.51	1962
+Europe	Greece	71	1967
+Europe	Greece	72.34	1972
+Europe	Greece	73.68	1977
+Europe	Greece	75.24	1982
+Europe	Greece	76.67	1987
+Europe	Greece	77.03	1992
+Europe	Greece	77.869	1997
+Europe	Greece	78.256	2002
+Europe	Greece	79.483	2007
+Europe	Hungary	64.03	1952
+Europe	Hungary	66.41	1957
+Europe	Hungary	67.96	1962
+Europe	Hungary	69.17	1992
+Europe	Hungary	69.39	1982
+Europe	Hungary	69.5	1967
+Europe	Hungary	69.58	1987
+Europe	Hungary	69.76	1972
+Europe	Hungary	69.95	1977
+Europe	Hungary	71.04	1997
+Europe	Hungary	72.59	2002
+Europe	Hungary	73.338	2007
+Europe	Iceland	72.49	1952
+Europe	Iceland	73.47	1957
+Europe	Iceland	73.68	1962
+Europe	Iceland	73.73	1967
+Europe	Iceland	74.46	1972
+Europe	Iceland	76.11	1977
+Europe	Iceland	76.99	1982
+Europe	Iceland	77.23	1987
+Europe	Iceland	78.77	1992
+Europe	Iceland	78.95	1997
+Europe	Iceland	80.5	2002
+Europe	Iceland	81.757	2007
+Europe	Ireland	66.91	1952
+Europe	Ireland	68.9	1957
+Europe	Ireland	70.29	1962
+Europe	Ireland	71.08	1967
+Europe	Ireland	71.28	1972
+Europe	Ireland	72.03	1977
+Europe	Ireland	73.1	1982
+Europe	Ireland	74.36	1987
+Europe	Ireland	75.467	1992
+Europe	Ireland	76.122	1997
+Europe	Ireland	77.783	2002
+Europe	Ireland	78.885	2007
+Europe	Italy	65.94	1952
+Europe	Italy	67.81	1957
+Europe	Italy	69.24	1962
+Europe	Italy	71.06	1967
+Europe	Italy	72.19	1972
+Europe	Italy	73.48	1977
+Europe	Italy	74.98	1982
+Europe	Italy	76.42	1987
+Europe	Italy	77.44	1992
+Europe	Italy	78.82	1997
+Europe	Italy	80.24	2002
+Europe	Italy	80.546	2007
+Europe	Montenegro	59.164	1952
+Europe	Montenegro	61.448	1957
+Europe	Montenegro	63.728	1962
+Europe	Montenegro	67.178	1967
+Europe	Montenegro	70.636	1972
+Europe	Montenegro	73.066	1977
+Europe	Montenegro	73.981	2002
+Europe	Montenegro	74.101	1982
+Europe	Montenegro	74.543	2007
+Europe	Montenegro	74.865	1987
+Europe	Montenegro	75.435	1992
+Europe	Montenegro	75.445	1997
+Europe	Netherlands	72.13	1952
+Europe	Netherlands	72.99	1957
+Europe	Netherlands	73.23	1962
+Europe	Netherlands	73.75	1972
+Europe	Netherlands	73.82	1967
+Europe	Netherlands	75.24	1977
+Europe	Netherlands	76.05	1982
+Europe	Netherlands	76.83	1987
+Europe	Netherlands	77.42	1992
+Europe	Netherlands	78.03	1997
+Europe	Netherlands	78.53	2002
+Europe	Netherlands	79.762	2007
+Europe	Norway	72.67	1952
+Europe	Norway	73.44	1957
+Europe	Norway	73.47	1962
+Europe	Norway	74.08	1967
+Europe	Norway	74.34	1972
+Europe	Norway	75.37	1977
+Europe	Norway	75.89	1987
+Europe	Norway	75.97	1982
+Europe	Norway	77.32	1992
+Europe	Norway	78.32	1997
+Europe	Norway	79.05	2002
+Europe	Norway	80.196	2007
+Europe	Poland	61.31	1952
+Europe	Poland	65.77	1957
+Europe	Poland	67.64	1962
+Europe	Poland	69.61	1967
+Europe	Poland	70.67	1977
+Europe	Poland	70.85	1972
+Europe	Poland	70.98	1987
+Europe	Poland	70.99	1992
+Europe	Poland	71.32	1982
+Europe	Poland	72.75	1997
+Europe	Poland	74.67	2002
+Europe	Poland	75.563	2007
+Europe	Portugal	59.82	1952
+Europe	Portugal	61.51	1957
+Europe	Portugal	64.39	1962
+Europe	Portugal	66.6	1967
+Europe	Portugal	69.26	1972
+Europe	Portugal	70.41	1977
+Europe	Portugal	72.77	1982
+Europe	Portugal	74.06	1987
+Europe	Portugal	74.86	1992
+Europe	Portugal	75.97	1997
+Europe	Portugal	77.29	2002
+Europe	Portugal	78.098	2007
+Europe	Romania	61.05	1952
+Europe	Romania	64.1	1957
+Europe	Romania	66.8	1962
+Europe	Romania	66.8	1967
+Europe	Romania	69.21	1972
+Europe	Romania	69.36	1992
+Europe	Romania	69.46	1977
+Europe	Romania	69.53	1987
+Europe	Romania	69.66	1982
+Europe	Romania	69.72	1997
+Europe	Romania	71.322	2002
+Europe	Romania	72.476	2007
+Europe	Serbia	57.996	1952
+Europe	Serbia	61.685	1957
+Europe	Serbia	64.531	1962
+Europe	Serbia	66.914	1967
+Europe	Serbia	68.7	1972
+Europe	Serbia	70.162	1982
+Europe	Serbia	70.3	1977
+Europe	Serbia	71.218	1987
+Europe	Serbia	71.659	1992
+Europe	Serbia	72.232	1997
+Europe	Serbia	73.213	2002
+Europe	Serbia	74.002	2007
+Europe	Slovak Republic	64.36	1952
+Europe	Slovak Republic	67.45	1957
+Europe	Slovak Republic	70.33	1962
+Europe	Slovak Republic	70.35	1972
+Europe	Slovak Republic	70.45	1977
+Europe	Slovak Republic	70.8	1982
+Europe	Slovak Republic	70.98	1967
+Europe	Slovak Republic	71.08	1987
+Europe	Slovak Republic	71.38	1992
+Europe	Slovak Republic	72.71	1997
+Europe	Slovak Republic	73.8	2002
+Europe	Slovak Republic	74.663	2007
+Europe	Slovenia	65.57	1952
+Europe	Slovenia	67.85	1957
+Europe	Slovenia	69.15	1962
+Europe	Slovenia	69.18	1967
+Europe	Slovenia	69.82	1972
+Europe	Slovenia	70.97	1977
+Europe	Slovenia	71.063	1982
+Europe	Slovenia	72.25	1987
+Europe	Slovenia	73.64	1992
+Europe	Slovenia	75.13	1997
+Europe	Slovenia	76.66	2002
+Europe	Slovenia	77.926	2007
+Europe	Spain	64.94	1952
+Europe	Spain	66.66	1957
+Europe	Spain	69.69	1962
+Europe	Spain	71.44	1967
+Europe	Spain	73.06	1972
+Europe	Spain	74.39	1977
+Europe	Spain	76.3	1982
+Europe	Spain	76.9	1987
+Europe	Spain	77.57	1992
+Europe	Spain	78.77	1997
+Europe	Spain	79.78	2002
+Europe	Spain	80.941	2007
+Europe	Sweden	71.86	1952
+Europe	Sweden	72.49	1957
+Europe	Sweden	73.37	1962
+Europe	Sweden	74.16	1967
+Europe	Sweden	74.72	1972
+Europe	Sweden	75.44	1977
+Europe	Sweden	76.42	1982
+Europe	Sweden	77.19	1987
+Europe	Sweden	78.16	1992
+Europe	Sweden	79.39	1997
+Europe	Sweden	80.04	2002
+Europe	Sweden	80.884	2007
+Europe	Switzerland	69.62	1952
+Europe	Switzerland	70.56	1957
+Europe	Switzerland	71.32	1962
+Europe	Switzerland	72.77	1967
+Europe	Switzerland	73.78	1972
+Europe	Switzerland	75.39	1977
+Europe	Switzerland	76.21	1982
+Europe	Switzerland	77.41	1987
+Europe	Switzerland	78.03	1992
+Europe	Switzerland	79.37	1997
+Europe	Switzerland	80.62	2002
+Europe	Switzerland	81.701	2007
+Europe	Turkey	43.585	1952
+Europe	Turkey	48.079	1957
+Europe	Turkey	52.098	1962
+Europe	Turkey	54.336	1967
+Europe	Turkey	57.005	1972
+Europe	Turkey	59.507	1977
+Europe	Turkey	61.036	1982
+Europe	Turkey	63.108	1987
+Europe	Turkey	66.146	1992
+Europe	Turkey	68.835	1997
+Europe	Turkey	70.845	2002
+Europe	Turkey	71.777	2007
+Europe	United Kingdom	69.18	1952
+Europe	United Kingdom	70.42	1957
+Europe	United Kingdom	70.76	1962
+Europe	United Kingdom	71.36	1967
+Europe	United Kingdom	72.01	1972
+Europe	United Kingdom	72.76	1977
+Europe	United Kingdom	74.04	1982
+Europe	United Kingdom	75.007	1987
+Europe	United Kingdom	76.42	1992
+Europe	United Kingdom	77.218	1997
+Europe	United Kingdom	78.471	2002
+Europe	United Kingdom	79.425	2007
+Oceania	Australia	69.12	1952
+Oceania	Australia	70.33	1957
+Oceania	Australia	70.93	1962
+Oceania	Australia	71.1	1967
+Oceania	Australia	71.93	1972
+Oceania	Australia	73.49	1977
+Oceania	Australia	74.74	1982
+Oceania	Australia	76.32	1987
+Oceania	Australia	77.56	1992
+Oceania	Australia	78.83	1997
+Oceania	Australia	80.37	2002
+Oceania	Australia	81.235	2007
+Oceania	New Zealand	69.39	1952
+Oceania	New Zealand	70.26	1957
+Oceania	New Zealand	71.24	1962
+Oceania	New Zealand	71.52	1967
+Oceania	New Zealand	71.89	1972
+Oceania	New Zealand	72.22	1977
+Oceania	New Zealand	73.84	1982
+Oceania	New Zealand	74.32	1987
+Oceania	New Zealand	76.33	1992
+Oceania	New Zealand	77.55	1997
+Oceania	New Zealand	79.11	2002
+Oceania	New Zealand	80.204	2007

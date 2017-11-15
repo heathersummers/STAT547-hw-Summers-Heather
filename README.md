@@ -38,6 +38,19 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 - [Linear regression models with robust parameter estimation](https://www.r-bloggers.com/linear-regression-models-with-robust-parameter-estimation/)
 
 
+##### Homework #7:
+
+###### Objectives:
+-write three or more R scripts to carry out a small data analysis
+-automate the data analysis pipeline using R, Make, Remake, or a combination of Make and Remake
+
+###### Useful Links:
+- [Automation Examples Using Just R](https://github.com/STAT545-UBC/STAT545-UBC.github.io/tree/master/automation10_holding-area/01_automation-example_just-r)
+
+- [broom package](https://github.com/tidyverse/broom)
+
+
+
 ### Additional Useful Links
 - [STAT545 Homepage](http://stat545.com/)
 - [STAT545 Syllabus](http://stat545.com/syllabus.html)

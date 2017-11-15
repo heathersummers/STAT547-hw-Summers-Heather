@@ -1,0 +1,50 @@
+---
+title: "hw07"
+author: "Heather"
+date: "November 14, 2017"
+output: github_document
+---
+
+Load the following packages:
+```{r}
+library(tidyverse)
+library(broom)
+library(ggplot2)
+library(dplyr)
+library(forcats)
+```
+
+
+## Download the data
+```{r}
+library(downloader)
+download.file(url = "https://raw.githubusercontent.com/jennybc/gapminder/master/inst/extdata/gapminder.tsv", destfile="gapminder.tsv")
+```
+
+## Perform exploratory analyses
+```{r}
+
+```
+
+## Perform statistical analyses
+```{r}
+
+```
+
+## Generate figures
+For each continent I created a life expectancy vs. year for the two best countries (i.e. smallest std.error) and two worst countries (i.e. largest std.error).
+
+!['Life Expectancy vs Year for Africa](Life_Expectancy_of_Africa.png)
+!['Life Expectancy vs Year for Asia](Life_Expectancy_of_Asia.png)
+![Life Expectancy vs Year for the Americas](Life_Expectancy_of_Americas.png)
+
+!['Life Expectancy vs Year for Europe](Life_Expectancy_of_Europe.png)
+!['Life Expectancy vs Year for Oceania](Life_Expectancy_of_Oceania.png)
+
+## Automate the pipeline
+
+
+```{r}
+
+```
+
