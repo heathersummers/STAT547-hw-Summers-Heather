@@ -11,7 +11,7 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 | :---: | :---: | :---: | :---: | :---: |
 | [06](http://stat545.com/hw06_data-wrangling-conclusion.html) | November 10, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw06) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.md) | November 13, 2017 |
 | [07](http://stat545.com/hw07_automation.html) | November 14, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw07) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/hw07.md) | November 17, 2017 |
-| [08](http://stat545.com/hw08_shiny.html) | November 21, 2017 | N/A | N/A | November 24, 2017 |
+| [08](http://stat545.com/hw08_shiny.html) | November 21, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw08) | [Here](https://heathersummers.shinyapps.io/hw08_BC_Liquor_Store_Prices/) | November 24, 2017 |
 | 09 | November 28, 2017 | N/A | N/A | December 1, 2017 |
 | 10 | December 4, 2017 | N/A | N/A | December 7, 2017 |
 
