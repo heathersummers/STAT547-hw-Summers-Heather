@@ -5,14 +5,15 @@ library(dplyr)
 library(DT) #package allows `DataTables` to be filtered, sorted, and divided into discrete pages
 library(shinythemes)
 
-server <- function(input, output) {
+server <- function(input, output, session) {
   bcl <- read.csv("bcl_data.csv", stringsAsFactors = FALSE)
 
   output$countryOutput <- renderUI({
     selectInput("countryInput", "Country",
                 sort(unique(bcl$Country)),
                 selected = "CANADA")
-  })  
+  
+  })
   
   filtered <- reactive({
     if (is.null(input$countryInput)) {
@@ -46,10 +47,10 @@ server <- function(input, output) {
 #now able to download results table as a .csv file  
   output$download <- downloadHandler( 
     filename = function() { 
-      "bcliquor_results.csv"
-    },
+      paste('bcliquor_results-', Sys.Date(), '.csv', sep='')
+      },
     content = function(file) {
-      write.csv(results(), file)
+      write.csv(filtered(), file, row.names = FALSE)
     }
   )
 }

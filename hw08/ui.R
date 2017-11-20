@@ -4,6 +4,7 @@ library(ggplot2)
 library(dplyr)
 library(DT) #package allows `DataTables` to be filtered, sorted, and divided into discrete pages
 library(shinythemes) #to alter the appearance of the app
+library(colourpicker)
 
 bcl <- read.csv("bcl_data.csv", stringsAsFactors = FALSE)
 
@@ -22,7 +23,7 @@ ui <- fluidPage(
     ),
 
   mainPanel(
-      downloadButton("download", "Download results"),
+      downloadButton("download", "Download results table"),
       br(), br(),
       plotOutput("coolplot"),
       br(), br(),

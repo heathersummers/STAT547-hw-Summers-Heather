@@ -5,9 +5,9 @@ account: heathersummers
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 237958
-bundleId: 1086532
+bundleId: 1086709
 url: https://heathersummers.shinyapps.io/hw08_BC_Liquor_Store_Prices/
-when: 1511214662.7039
+when: 1511219981.19928
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: README.md

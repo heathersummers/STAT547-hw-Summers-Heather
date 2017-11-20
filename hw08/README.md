@@ -11,7 +11,7 @@ I made improvements to the BC Liquor Store app, please see [hw08 BC Liquor Store
 - used the DT package to make beautiful, interactive tables
 - used the package `shinythemes` to chnage the appearance of the app
 - made the following changes to the histogram: changed the axis titles, added a title for the plot, fill colour is determined by the product type, font is black and of size 20
-- allowed the user to download the results table as a .csv file using the functions `downloadButton()` and `downloadHandler()`
+- allowed the user to download the results table as a .csv file (bcliquor_results-YYYY-MM-DD.csv) using the functions `downloadButton()` and `downloadHandler()`
 - allowed the user to search for multiple product types simultaneously (instead of only being able to choose one product type) using the function `checkboxGroupInput()`
 - added an image of the BC liquor store logo 
 
