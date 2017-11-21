@@ -4,11 +4,10 @@ library(ggplot2)
 library(dplyr)
 library(DT) #package allows `DataTables` to be filtered, sorted, and divided into discrete pages
 library(shinythemes) #to alter the appearance of the app
-library(colourpicker)
 
 bcl <- read.csv("bcl_data.csv", stringsAsFactors = FALSE)
 
-ui <- fluidPage(
+shinyUI(fluidPage(
   theme = shinytheme("readable"),
   img(src = "BCliquor_logo.jpg", width="450x"),
   titlePanel("BC Liquor Store prices"),
@@ -38,4 +37,5 @@ ui <- fluidPage(
       DT::dataTableOutput("results")
     )
   )
+)
 )

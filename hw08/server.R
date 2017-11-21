@@ -5,7 +5,7 @@ library(dplyr)
 library(DT) #package allows `DataTables` to be filtered, sorted, and divided into discrete pages
 library(shinythemes)
 
-server <- function(input, output, session) {
+shinyServer(function(input, output, session) {
   bcl <- read.csv("bcl_data.csv", stringsAsFactors = FALSE)
 
   output$countryOutput <- renderUI({
@@ -63,4 +63,4 @@ server <- function(input, output, session) {
       write.csv(filtered(), file, row.names = FALSE)
     }
   )
-}
+})
