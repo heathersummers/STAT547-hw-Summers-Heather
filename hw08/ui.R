@@ -19,14 +19,22 @@ ui <- fluidPage(
                    choices = c("BEER", "REFRESHMENT", "SPIRITS", "WINE"),
                    selected = "WINE"),
       
-      uiOutput("countryOutput")
-    ),
+      uiOutput("countryOutput"),
+    hr(),
+    span("Data source:",
+         tags$a("OpenDataBC",
+                href = "https://www.opendatabc.ca/dataset/bc-liquor-store-product-price-list-current-prices")),
+    br(),
+    ("Created by Heather Summers, with code adapted from Dean Attali")
+  ),
 
   mainPanel(
       downloadButton("download", "Download results table"),
       br(), br(),
       plotOutput("coolplot"),
       br(), br(),
+      h4(textOutput("SummaryText")),
+      br(),
       DT::dataTableOutput("results")
     )
   )

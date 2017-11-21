@@ -15,6 +15,16 @@ server <- function(input, output, session) {
   
   })
   
+  output$SummaryText <- renderText ({
+    numOptions <- nrow(filtered())
+    if (is.null(numOptions)) {
+      numOptions <- 0
+    }
+    paste0("We found ", numOptions, " options for you:")
+  })
+
+  
+
   filtered <- reactive({
     if (is.null(input$countryInput)) {
       return(NULL)
