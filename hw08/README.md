@@ -5,7 +5,7 @@ This folder contains homework assignment #8 for Heather Summers.
 
 I made improvements to the BC Liquor Store app, please see [hw08 BC Liquor Store Prices app](https://heathersummers.shinyapps.io/hw08_BC_Liquor_Store_Prices/). The dataset can be found [here](https://github.com/STAT545-UBC/STAT545-UBC.github.io/blob/master/shiny_supp/2016/bcl-data.csv). For details on the code used to make the shiny app please see the [app.R](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw08/app.R), [ui.R](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw08/ui.R), and [server.R](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw08/server.R) documents. Also the instructions for this assignment can be found on the [STAT545 Website](http://stat545.com/hw08_shiny.html).
 
-[Thus Shiny app](https://heathersummers.shinyapps.io/hw08_BC_Liquor_Store_Prices/) allows the user to see the number of products, alcohol content, subtypes, price, name, and sweetness that are available for the selected product types (i.e. wine, beer, spirits, refreshment), price range, and country. 
+[My Shiny app](https://heathersummers.shinyapps.io/hw08_BC_Liquor_Store_Prices/) allows the user to see the number of products, alcohol content, subtypes, price, name, and sweetness that are available for the selected product types (i.e. wine, beer, spirits, refreshment), price range, and country. 
 
 ### New features added to the BC Liquor Store app:
 - used the DT package to make beautiful, interactive tables
