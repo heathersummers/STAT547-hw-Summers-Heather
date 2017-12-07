@@ -12,8 +12,8 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 | [06](http://stat545.com/hw06_data-wrangling-conclusion.html) | November 10, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw06) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw06/hw06.md) | November 13, 2017 |
 | [07](http://stat545.com/hw07_automation.html) | November 14, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw07) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/hw07.md) | November 17, 2017 |
 | [08](http://stat545.com/hw08_shiny.html) | November 21, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw08) | [Here](https://heathersummers.shinyapps.io/hw08_BC_Liquor_Store_Prices/) | November 24, 2017 |
-| [09](http://stat545.com/hw09_package.html) | November 28, 2017 | [Folder]((https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw09) | [Here](https://github.com/heathersummers/flights) | December 1, 2017 |
-| 10 | December 4, 2017 | N/A | N/A | December 7, 2017 |
+| [09](http://stat545.com/hw09_package.html) | November 28, 2017 | [Folder]((https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw09) | [Here](https://github.com/heathersummers/flights) | December 6, 2017 |
+| [10](http://stat545.com/hw10_data-from-web.html) | December 7, 2017 | N/A | N/A | December 10, 2017 |
 
 ### Details on Each Homework Assignment
 ##### Homework #6:
@@ -80,6 +80,15 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 - [Notes from class](http://stat545.com/cm109-110-notes_and_exercises.html#testing-with-testthat)
 
 - [Information on test_that](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
+
+
+##### Homework #10:
+
+###### Objectives:
+- get data from the web into R using either of the three ways (i.e. API queries using `httr`, R package that wraps an API, or scrape the web)
+
+###### Useful Links:
+- [Notes from class](http://stat545.com/111Scraping_Workthrough.html)
 
 
 
