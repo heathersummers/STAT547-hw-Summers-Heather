@@ -208,7 +208,7 @@ Now to test to be sure the data has been successfully downloaded and cleaned.
   filter(Temperature > 0, Wind_speed <5.0) %>%
   group_by(City) %>%
     kable())
-#as you can see only Vancouver, Halifax, and Calgary fit the requirements
+#as you can see only Vancouver and Calgary fit the requirements
 ```
 
 
