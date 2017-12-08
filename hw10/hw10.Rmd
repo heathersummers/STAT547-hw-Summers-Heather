@@ -22,7 +22,6 @@ library(forcats)
 Sign up [here](https://home.openweathermap.org/users/sign_up) to request an API from OpenWeatherData.
 ```{r}
 my_apikey <- "insert_your_api_key_here"
-my_apikey <- "89f918f4bb7c078e3f2fe2392de4fe3c"
 
 #Current weather in several Canadian cities
 weather_severalcities <- GET(glue("http://api.openweathermap.org/data/2.5/group?id=6173331,6167865,6077243,5969423,5913490,6183235,6094817,5969785&units=metric&APPID={my_apikey}")) 
@@ -162,6 +161,7 @@ weather_df_8 <- lapply(severalcities_result, function(x){
 ```
 
 Now I must recursively join the list of data frames:
+
 *I found [this](https://www.rdocumentation.org/packages/plyr/versions/1.8.4/topics/join_all) website particularly helpful with figuring out how to join multiple data frames 
 ```{r}
 weather_cities_df <- join_all(list(
