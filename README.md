@@ -90,6 +90,13 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 ###### Useful Links:
 - [Notes from class](http://stat545.com/111Scraping_Workthrough.html)
 
+- [Accessing APIs from R](https://www.r-bloggers.com/accessing-apis-from-r-and-a-little-r-programming/)
+
+- [Joining A List of Data Frames](https://www.rdocumentation.org/packages/plyr/versions/1.8.4/topics/join_all)
+
+- [API Developer Guide](https://developer.github.com/v3/)
+
+- [Current weather data](https://openweathermap.org/current#cities)
 
 
 ### Additional Useful Links

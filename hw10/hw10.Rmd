@@ -1,0 +1,214 @@
+---
+title: "STAT547 Homework #10"
+output: github_document
+---
+### Make API queries "by hand" using httr 
+
+Load the following packages:
+```{r results='hide', message=FALSE, warning=FALSE}
+library(httr)
+library(purrr)
+library(glue)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(plyr)
+library(knitr)
+library(forcats)
+```
+
+
+### Call an API from OpenWeatherData
+Sign up [here](https://home.openweathermap.org/users/sign_up) to request an API from OpenWeatherData.
+```{r}
+my_apikey <- "insert_your_api_key_here"
+my_apikey <- "89f918f4bb7c078e3f2fe2392de4fe3c"
+
+#Current weather in several Canadian cities
+weather_severalcities <- GET(glue("http://api.openweathermap.org/data/2.5/group?id=6173331,6167865,6077243,5969423,5913490,6183235,6094817,5969785&units=metric&APPID={my_apikey}")) 
+#changed the units from the default which is Kelvin to metric which is Celsius
+#`GET` is used to retrieve resources
+
+#You must input several city ID's into `weather_severalcities` in order to get weather data for the specific cities you want. The API query above includes data for the following cities:
+vancouver_id <- "6173331" #Vancouver,CA
+toronto_id <- "6167865" #Toronto,CA
+montreal_id <- "6077243" #Montreal,CA
+halifax_id <- "5969423" #Halifax,CA
+calgary_id <- "5913490" #Calgary,CA
+winnipeg_id <- "6183235" #Winnipeg,CA
+ottawa_id <- "6094817" #Ottawa,CA
+hamilton_id <- "5969785" #Hamilton,CA
+#A full list of city ID (city.list.json.gz) can be downloaded here http://bulk.openweathermap.org/sample/
+
+
+status_code(weather_severalcities) #status code of 200 means that the call was successful 
+
+severalcities_result <- content(weather_severalcities)
+nchar(severalcities_result) #number of characters
+class(severalcities_result) #this is a list
+length(severalcities_result) #the list is of length 2
+
+View(severalcities_result)
+
+str(weather_severalcities)
+```
+
+List of data frames for the different cities.
+```{r}
+#data frame for the weather data from Vancouver
+weather_df_1 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[1]]$name,
+                   Longitude = severalcities_result$list[[1]]$coord$lon,
+                   Latitude = severalcities_result$list[[1]]$coord$lat,
+                   Temperature = severalcities_result$list[[1]]$main$temp,
+                   Pressure = severalcities_result$list[[1]]$main$pressure,
+                   Humidity = severalcities_result$list[[1]]$main$humidity,
+                   Temp_min = severalcities_result$list[[1]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[1]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[1]]$wind$speed)
+}) %>% bind_rows()
+
+#data frame for the weather data from Toronto
+weather_df_2 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[2]]$name,
+                   Longitude = severalcities_result$list[[2]]$coord$lon,
+                   Latitude = severalcities_result$list[[2]]$coord$lat,
+                   Temperature = severalcities_result$list[[2]]$main$temp,
+                   Pressure = severalcities_result$list[[2]]$main$pressure,
+                   Humidity = severalcities_result$list[[2]]$main$humidity,
+                   Temp_min = severalcities_result$list[[2]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[2]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[2]]$wind$speed)
+}) %>% bind_rows()
+
+#data frame for the weather data from Montreal
+weather_df_3 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[3]]$name,
+                   Longitude = severalcities_result$list[[3]]$coord$lon,
+                   Latitude = severalcities_result$list[[3]]$coord$lat,
+                   Temperature = severalcities_result$list[[3]]$main$temp,
+                   Pressure = severalcities_result$list[[3]]$main$pressure,
+                   Humidity = severalcities_result$list[[3]]$main$humidity,
+                   Temp_min = severalcities_result$list[[3]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[3]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[3]]$wind$speed)
+}) %>% 
+  bind_rows()
+
+#data frame for the weather data from Halifax
+weather_df_4 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[4]]$name,
+                   Longitude = severalcities_result$list[[4]]$coord$lon,
+                   Latitude = severalcities_result$list[[4]]$coord$lat,
+                   Temperature = severalcities_result$list[[4]]$main$temp,
+                   Pressure = severalcities_result$list[[4]]$main$pressure,
+                   Humidity = severalcities_result$list[[4]]$main$humidity,
+                   Temp_min = severalcities_result$list[[4]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[4]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[4]]$wind$speed)
+}) %>% bind_rows()
+
+#data frame for the weather data from Calgary
+weather_df_5 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[5]]$name,
+                   Longitude = severalcities_result$list[[5]]$coord$lon,
+                   Latitude = severalcities_result$list[[5]]$coord$lat,
+                   Temperature = severalcities_result$list[[5]]$main$temp,
+                   Pressure = severalcities_result$list[[5]]$main$pressure,
+                   Humidity = severalcities_result$list[[5]]$main$humidity,
+                   Temp_min = severalcities_result$list[[5]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[5]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[5]]$wind$speed)
+}) %>% bind_rows()
+
+#data frame for the weather data from Winnipeg
+weather_df_6 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[6]]$name,
+                   Longitude = severalcities_result$list[[6]]$coord$lon,
+                   Latitude = severalcities_result$list[[6]]$coord$lat,
+                   Temperature = severalcities_result$list[[6]]$main$temp,
+                   Pressure = severalcities_result$list[[6]]$main$pressure,
+                   Humidity = severalcities_result$list[[6]]$main$humidity,
+                   Temp_min = severalcities_result$list[[6]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[6]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[6]]$wind$speed)
+}) %>% bind_rows()
+
+#data frame for the weather data from Ottawa
+weather_df_7 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[7]]$name,
+                   Longitude = severalcities_result$list[[7]]$coord$lon,
+                   Latitude = severalcities_result$list[[7]]$coord$lat,
+                   Temperature = severalcities_result$list[[7]]$main$temp,
+                   Pressure = severalcities_result$list[[7]]$main$pressure,
+                   Humidity = severalcities_result$list[[7]]$main$humidity,
+                   Temp_min = severalcities_result$list[[7]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[7]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[7]]$wind$speed)
+}) %>% bind_rows()
+
+#data frame for the weather data from Hamilton
+weather_df_8 <- lapply(severalcities_result, function(x){
+  df <- data_frame(City = severalcities_result$list[[8]]$name,
+                   Longitude = severalcities_result$list[[8]]$coord$lon,
+                   Latitude = severalcities_result$list[[8]]$coord$lat,
+                   Temperature = severalcities_result$list[[8]]$main$temp,
+                   Pressure = severalcities_result$list[[8]]$main$pressure,
+                   Humidity = severalcities_result$list[[8]]$main$humidity,
+                   Temp_min = severalcities_result$list[[8]]$main$temp_min,
+                   Temp_max = severalcities_result$list[[8]]$main$temp_max,
+                   Wind_speed = severalcities_result$list[[8]]$wind$speed)
+}) %>% bind_rows()
+```
+
+Now I must recursively join the list of data frames:
+*I found [this](https://www.rdocumentation.org/packages/plyr/versions/1.8.4/topics/join_all) website particularly helpful with figuring out how to join multiple data frames 
+```{r}
+weather_cities_df <- join_all(list(
+  weather_df_1, 
+  weather_df_2, 
+  weather_df_3, 
+  weather_df_4, 
+  weather_df_5, 
+  weather_df_6, 
+  weather_df_7, 
+  weather_df_8),
+  by = "City", type = "full", match = "all")
+
+#Now I need to remove duplicates from the `weather_cities_df` data frame using the function `distinct()`
+weather_cities_df <- distinct(weather_cities_df,
+                              City,
+                              Longitude,
+                              Latitude,
+                              Temperature,
+                              Pressure,
+                              Humidity,
+                              Temp_min,
+                              Temp_max,
+                              Wind_speed)
+kable(weather_cities_df, align = 'c', format = 'html')
+```
+
+Now to test to be sure the data has been successfully downloaded and cleaned.
+```{r}
+#Plot of temperatures for the different cities
+(weather_cities_plot <- weather_cities_df %>%
+  ggplot(aes(x = City,
+             y = Temperature)) +
+  geom_point() +
+   theme_bw()+
+   theme(axis.title = element_text(size=13, face='bold'),
+         axis.text.x = element_text(size=12, angle=90),
+        axis.text.y = element_text(size=12),
+        plot.title = element_text(size=14, face="bold", hjust = 0.5)) +
+   labs(x = "Cities in Canada", y = "Temperature (?C)", title = "Temperature for cities on December 7, 2017", caption = "Data from OpenWeatherMap"))
+
+#Determine which cities have a temperature above zero degrees Celsius and a wind speed less than 5.0 meters/sec
+(test1 <- weather_cities_df %>%
+  filter(Temperature > 0, Wind_speed <5.0) %>%
+  group_by(City) %>%
+    kable())
+#as you can see only Vancouver, Halifax, and Calgary fit the requirements
+```
+
+
