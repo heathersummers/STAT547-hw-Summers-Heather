@@ -3,7 +3,7 @@
 
 This folder contains homework assignment #10 for Heather Summers.
 
-For the completed homework 10 please see the [Markdown file]() and the [R Markdown file](). Also a link to the instructions for this assignment can be found on the [STAT545 Website](http://stat545.com/hw10_data-from-web.html). API came from this [website](https://openweathermap.org/current#cities). 
+For the completed homework 10 please see the [Markdown file](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw10/hw10.md) and the [R Markdown file](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw10/hw10.Rmd). Also a link to the instructions for this assignment can be found on the [STAT545 Website](http://stat545.com/hw10_data-from-web.html). API came from this [website](https://openweathermap.org/current#cities). 
 
 For this homework I used the package `httr` to aquire data from the [OpenWeatherMap API](https://openweathermap.org/current#cities) and merged the data into a single data frame with weather information for several cities around Canada. To get the data from the API it required a key so to preserve the security of the authorization key, reviewers will need to [sign up](https://home.openweathermap.org/users/sign_up) to get a key in order to run the code and see the resulting tables and plots.
 

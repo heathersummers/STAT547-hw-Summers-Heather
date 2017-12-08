@@ -13,7 +13,7 @@ I recently graduated with an Honours Bachelor of Science from the Integrated Sci
 | [07](http://stat545.com/hw07_automation.html) | November 14, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw07) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw07/hw07.md) | November 17, 2017 |
 | [08](http://stat545.com/hw08_shiny.html) | November 21, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw08) | [Here](https://heathersummers.shinyapps.io/hw08_BC_Liquor_Store_Prices/) | November 24, 2017 |
 | [09](http://stat545.com/hw09_package.html) | November 28, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw09) | [Here](https://github.com/heathersummers/flights) | December 6, 2017 |
-| [10](http://stat545.com/hw10_data-from-web.html) | December 7, 2017 | N/A | N/A | December 10, 2017 |
+| [10](http://stat545.com/hw10_data-from-web.html) | December 7, 2017 | [Folder](https://github.com/heathersummers/STAT547-hw-Summers-Heather/tree/master/hw10) | [Here](https://github.com/heathersummers/STAT547-hw-Summers-Heather/blob/master/hw10/hw10.md) | December 10, 2017 |
 
 ### Details on Each Homework Assignment
 ##### Homework #6:
